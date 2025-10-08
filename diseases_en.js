@@ -12,16 +12,48 @@ window.diseases_en = [
             "Listeria monocytogenes"
         ],
         "empiricalTherapy": {
-            "firstLine": "Ceftriaxone 2g IV 12h + Ampicillin 2g IV 4h (>50 év)",
-            "alternative": "Meropenem 2g IV 8h + Ampicillin (>50 év)",
-            "duration": "10-14 nap (S. pneumoniae, N. meningitidis), 21 nap (L. monocytogenes)"
+            "firstLine": {
+                "hu": "Ceftriaxone 2g IV 12h + Ampicillin 2g IV 4h (>50 év)",
+                "en": "Ceftriaxone 2g IV 12h + Ampicillin 2g IV 4h (>50 years)",
+                "de": "Ceftriaxon 2g i.v. 12h + Ampicillin 2g i.v. 4h (>50 Jahre)"
+            },
+            "alternative": {
+                "hu": "Meropenem 2g IV 8h + Ampicillin (>50 év)",
+                "en": "Meropenem 2g IV 8h + Ampicillin (>50 years)",
+                "de": "Meropenem 2g i.v. 8h + Ampicillin (>50 Jahre)"
+            },
+            "duration": {
+                "hu": "10-14 nap (S. pneumoniae, N. meningitidis), 21 nap (L. monocytogenes)",
+                "en": "10-14 days (S. pneumoniae, N. meningitidis), 21 days (L. monocytogenes)",
+                "de": "10-14 Tage (S. pneumoniae, N. meningitidis), 21 Tage (L. monocytogenes)"
+            }
         },
         "targetedTherapy": {
-            "S. pneumoniae (MIC ≤0.06)": "Penicillin G 4 MU IV 4h, 10-14 nap",
-            "S. pneumoniae (MIC 0.12-1)": "Ceftriaxone 2g IV 12h, 10-14 nap",
-            "S. pneumoniae (MIC ≥2)": "Vancomycin + Ceftriaxone, 10-14 nap",
-            "N. meningitidis": "Penicillin G 4 MU IV 4h, 7 nap vagy Ceftriaxone 2g IV 12h, 7 nap",
-            "L. monocytogenes": "Ampicillin 2g IV 4h + Gentamicin 5mg/kg IV 24h, 21 nap"
+            "S. pneumoniae (MIC ≤0.06)": {
+                "hu": "Penicillin G 4 MU IV 4h, 10-14 nap",
+                "en": "Penicillin G 4 MU IV 4h, 10-14 days",
+                "de": "Penicillin G 4 ME i.v. 4h, 10-14 Tage"
+            },
+            "S. pneumoniae (MIC 0.12-1)": {
+                "hu": "Ceftriaxone 2g IV 12h, 10-14 nap",
+                "en": "Ceftriaxone 2g IV 12h, 10-14 days",
+                "de": "Ceftriaxon 2g i.v. 12h, 10-14 Tage"
+            },
+            "S. pneumoniae (MIC ≥2)": {
+                "hu": "Vancomycin + Ceftriaxone, 10-14 nap",
+                "en": "Vancomycin + Ceftriaxone, 10-14 days",
+                "de": "Vancomycin + Ceftriaxon, 10-14 Tage"
+            },
+            "N. meningitidis": {
+                "hu": "Penicillin G 4 MU IV 4h, 7 nap vagy Ceftriaxone 2g IV 12h, 7 nap",
+                "en": "Penicillin G 4 MU IV 4h, 7 days or Ceftriaxone 2g IV 12h, 7 days",
+                "de": "Penicillin G 4 ME i.v. 4h, 7 Tage oder Ceftriaxon 2g i.v. 12h, 7 Tage"
+            },
+            "L. monocytogenes": {
+                "hu": "Ampicillin 2g IV 4h + Gentamicin 5mg/kg IV 24h, 21 nap",
+                "en": "Ampicillin 2g IV 4h + Gentamicin 5mg/kg IV 24h, 21 days",
+                "de": "Ampicillin 2g i.v. 4h + Gentamicin 5mg/kg i.v. 24h, 21 Tage"
+            }
         },
         "notes": {
             "hu": "Dexamethasone 0.15mg/kg IV 6h 2-4 napig (S. pneumoniae esetén), ampicillin >50 év vagy immunszuppresszió esetén",
@@ -42,14 +74,38 @@ window.diseases_en = [
             "Listeria monocytogenes"
         ],
         "empiricalTherapy": {
-            "firstLine": "Ampicillin 50mg/kg IV 8h + Cefotaxime 50mg/kg IV 8h",
-            "alternative": "Ampicillin + Gentamicin 2.5mg/kg IV 8h",
-            "duration": "14-21 nap"
+            "firstLine": {
+                "hu": "Ampicillin 50mg/kg IV 8h + Cefotaxime 50mg/kg IV 8h",
+                "en": "Ampicillin 50mg/kg IV 8h + Cefotaxime 50mg/kg IV 8h",
+                "de": "Ampicillin 50mg/kg i.v. 8h + Cefotaxim 50mg/kg i.v. 8h"
+            },
+            "alternative": {
+                "hu": "Ampicillin + Gentamicin 2.5mg/kg IV 8h",
+                "en": "Ampicillin + Gentamicin 2.5mg/kg IV 8h",
+                "de": "Ampicillin + Gentamicin 2.5mg/kg i.v. 8h"
+            },
+            "duration": {
+                "hu": "14-21 nap",
+                "en": "14-21 days",
+                "de": "14-21 Tage"
+            }
         },
         "targetedTherapy": {
-            "GBS": "Penicillin G vagy Ampicillin",
-            "E. coli": "Cefotaxime vagy Gentamicin",
-            "L. monocytogenes": "Ampicillin + Gentamicin"
+            "GBS": {
+                "hu": "Penicillin G vagy Ampicillin",
+                "en": "Penicillin G or Ampicillin",
+                "de": "Penicillin G oder Ampicillin"
+            },
+            "E. coli": {
+                "hu": "Cefotaxime vagy Gentamicin",
+                "en": "Cefotaxime or Gentamicin",
+                "de": "Cefotaxim oder Gentamicin"
+            },
+            "L. monocytogenes": {
+                "hu": "Ampicillin + Gentamicin",
+                "en": "Ampicillin + Gentamicin",
+                "de": "Ampicillin + Gentamicin"
+            }
         },
         "notes": {
             "hu": "Lumbal punctio ismétlése 24-48h után",
@@ -71,15 +127,43 @@ window.diseases_en = [
             "C. pneumoniae"
         ],
         "empiricalTherapy": {
-            "firstLine": "Amoxicillin 1g PO 8h (egészséges felnőtt)",
-            "alternative": "Azithromycin 500mg PO 24h, 3 nap vagy Doxycycline 100mg PO 12h",
-            "duration": "5 nap"
+            "firstLine": {
+                "hu": "Amoxicillin 1g PO 8h (egészséges felnőtt)",
+                "en": "Amoxicillin 1g PO 8h (healthy adult)",
+                "de": "Amoxicillin 1g p.o. 8h (gesunder Erwachsener)"
+            },
+            "alternative": {
+                "hu": "Azithromycin 500mg PO 24h, 3 nap vagy Doxycycline 100mg PO 12h",
+                "en": "Azithromycin 500mg PO 24h, 3 days or Doxycycline 100mg PO 12h",
+                "de": "Azithromycin 500mg p.o. 24h, 3 Tage oder Doxycyclin 100mg p.o. 12h"
+            },
+            "duration": {
+                "hu": "5 nap",
+                "en": "5 days",
+                "de": "5 Tage"
+            }
         },
         "targetedTherapy": {
-            "S. pneumoniae": "Amoxicillin 1g PO 8h, 5 nap",
-            "H. influenzae": "Amoxicillin-clavulanate 875/125mg PO 12h, 5 nap",
-            "M. pneumoniae": "Azithromycin 500mg PO 24h, 6 nap",
-            "C. pneumoniae": "Doxycycline 100mg PO 12h, 14 nap"
+            "S. pneumoniae": {
+                "hu": "Amoxicillin 1g PO 8h, 5 nap",
+                "en": "Amoxicillin 1g PO 8h, 5 days",
+                "de": "Amoxicillin 1g p.o. 8h, 5 Tage"
+            },
+            "H. influenzae": {
+                "hu": "Amoxicillin-klavulánsav 875/125mg PO 12h, 5 nap",
+                "en": "Amoxicillin-clavulanate 875/125mg PO 12h, 5 days",
+                "de": "Amoxicillin-Clavulansäure 875/125mg p.o. 12h, 5 Tage"
+            },
+            "M. pneumoniae": {
+                "hu": "Azithromycin 500mg PO 24h, 6 nap",
+                "en": "Azithromycin 500mg PO 24h, 6 days",
+                "de": "Azithromycin 500mg p.o. 24h, 6 Tage"
+            },
+            "C. pneumoniae": {
+                "hu": "Doxycycline 100mg PO 12h, 14 nap",
+                "en": "Doxycycline 100mg PO 12h, 14 days",
+                "de": "Doxycyclin 100mg p.o. 12h, 14 Tage"
+            }
         },
         "notes": {
             "hu": "CURB-65 score 0-1, nincs komorbiditás, <65 év, stabil vitális paraméterek",
@@ -102,14 +186,38 @@ window.diseases_en = [
             "S. aureus"
         ],
         "empiricalTherapy": {
-            "firstLine": "Amoxicillin-clavulanate 875/125mg PO 12h +/- Azithromycin 500mg PO 24h",
-            "alternative": "cefuroxim 500mg PO 12h +/- Azithromycin 500mg PO 24h",
-            "duration": "5-7 nap"
+            "firstLine": {
+                "hu": "Amoxicillin-klavulánsav 875/125mg PO 12h +/- Azithromycin 500mg PO 24h",
+                "en": "Amoxicillin-clavulanate 875/125mg PO 12h +/- Azithromycin 500mg PO 24h",
+                "de": "Amoxicillin-Clavulansäure 875/125mg p.o. 12h +/- Azithromycin 500mg p.o. 24h"
+            },
+            "alternative": {
+                "hu": "Cefuroxim 500mg PO 12h +/- Azithromycin 500mg PO 24h",
+                "en": "Cefuroxime 500mg PO 12h +/- Azithromycin 500mg PO 24h",
+                "de": "Cefuroxim 500mg p.o. 12h +/- Azithromycin 500mg p.o. 24h"
+            },
+            "duration": {
+                "hu": "5-7 nap",
+                "en": "5-7 days",
+                "de": "5-7 Tage"
+            }
         },
         "targetedTherapy": {
-            "S. pneumoniae": "Amoxicillin-clavulanate + Azithromycin",
-            "H. influenzae": "Amoxicillin-clavulanate",
-            "Atípusos patogének": "Azithromycin vagy Levofloxacin"
+            "S. pneumoniae": {
+                "hu": "Amoxicillin-klavulánsav + Azithromycin",
+                "en": "Amoxicillin-clavulanate + Azithromycin",
+                "de": "Amoxicillin-Clavulansäure + Azithromycin"
+            },
+            "H. influenzae": {
+                "hu": "Amoxicillin-klavulánsav",
+                "en": "Amoxicillin-clavulanate",
+                "de": "Amoxicillin-Clavulansäure"
+            },
+            "Atípusos patogének": {
+                "hu": "Azithromycin vagy Levofloxacin",
+                "en": "Azithromycin or Levofloxacin",
+                "de": "Azithromycin oder Levofloxacin"
+            }
         },
         "notes": {
             "hu": "Komorbiditások (COPD, diabetes, szívbetegség, alkoholizmus), >65 év, antibiotikum használat 90 napon belül",
@@ -132,14 +240,38 @@ window.diseases_en = [
             "Enterobacteriaceae"
         ],
         "empiricalTherapy": {
-            "firstLine": "amoxicillin-clavulanate 875/125mg IV 12h +/- Azithromycin 500mg IV 24h",
-            "alternative": "Ceftriaxone 1g IV 24h +/- Azithromycin 500mg IV 24h",
-            "duration": "5-7 nap"
+            "firstLine": {
+                "hu": "Amoxicillin-klavulánsav 875/125mg IV 12h +/- Azithromycin 500mg IV 24h",
+                "en": "Amoxicillin-clavulanate 875/125mg IV 12h +/- Azithromycin 500mg IV 24h",
+                "de": "Amoxicillin-Clavulansäure 875/125mg i.v. 12h +/- Azithromycin 500mg i.v. 24h"
+            },
+            "alternative": {
+                "hu": "Ceftriaxone 1g IV 24h +/- Azithromycin 500mg IV 24h",
+                "en": "Ceftriaxone 1g IV 24h +/- Azithromycin 500mg IV 24h",
+                "de": "Ceftriaxon 1g i.v. 24h +/- Azithromycin 500mg i.v. 24h"
+            },
+            "duration": {
+                "hu": "5-7 nap",
+                "en": "5-7 days",
+                "de": "5-7 Tage"
+            }
         },
         "targetedTherapy": {
-            "S. pneumoniae": "Ceftriaxone 2g IV 24h, 5 nap",
-            "Legionella": "Azithromycin 500mg IV 24h, 5-10 nap",
-            "S. aureus (MSSA)": "Cefazolin 2g IV 8h, 7 nap"
+            "S. pneumoniae": {
+                "hu": "Ceftriaxone 2g IV 24h, 5 nap",
+                "en": "Ceftriaxone 2g IV 24h, 5 days",
+                "de": "Ceftriaxon 2g i.v. 24h, 5 Tage"
+            },
+            "Legionella": {
+                "hu": "Azithromycin 500mg IV 24h, 5-10 nap",
+                "en": "Azithromycin 500mg IV 24h, 5-10 days",
+                "de": "Azithromycin 500mg i.v. 24h, 5-10 Tage"
+            },
+            "S. aureus (MSSA)": {
+                "hu": "Cefazolin 2g IV 8h, 7 nap",
+                "en": "Cefazolin 2g IV 8h, 7 days",
+                "de": "Cefazolin 2g i.v. 8h, 7 Tage"
+            }
         },
         "notes": {
             "hu": "CURB-65 pontszám 2, komorbiditások, nem képes orális gyógyszer szedésére",
@@ -162,14 +294,38 @@ window.diseases_en = [
             "Enterobacteriaceae"
         ],
         "empiricalTherapy": {
-            "firstLine": "Ceftriaxone 2g IV 24h + Azithromycin 500mg IV 24h (béta-laktám + makrolid)",
-            "alternative": "Levofloxacin 750mg IV 24h + Ceftriaxone 2g IV 24h (fluorokinolon + béta-laktám)",
-            "duration": "7-10 nap"
+            "firstLine": {
+                "hu": "Ceftriaxone 2g IV 24h + Azithromycin 500mg IV 24h (béta-laktám + makrolid)",
+                "en": "Ceftriaxone 2g IV 24h + Azithromycin 500mg IV 24h (beta-lactam + macrolide)",
+                "de": "Ceftriaxon 2g i.v. 24h + Azithromycin 500mg i.v. 24h (Beta-Lactam + Makrolid)"
+            },
+            "alternative": {
+                "hu": "Levofloxacin 750mg IV 24h + Ceftriaxone 2g IV 24h (fluorokinolon + béta-laktám)",
+                "en": "Levofloxacin 750mg IV 24h + Ceftriaxone 2g IV 24h (fluoroquinolone + beta-lactam)",
+                "de": "Levofloxacin 750mg i.v. 24h + Ceftriaxon 2g i.v. 24h (Fluorchinolon + Beta-Lactam)"
+            },
+            "duration": {
+                "hu": "7-10 nap",
+                "en": "7-10 days",
+                "de": "7-10 Tage"
+            }
         },
         "targetedTherapy": {
-            "S. pneumoniae": "Ceftriaxone 2g IV 24h + Azithromycin",
-            "Legionella": "Azithromycin 500mg IV 24h vagy Levofloxacin 750mg IV 24h",
-            "P. aeruginosa rizikó": "Piperacillin-tazobactam 4.5g IV 6h + Ciprofloxacin 400mg IV 12h"
+            "S. pneumoniae": {
+                "hu": "Ceftriaxone 2g IV 24h + Azithromycin",
+                "en": "Ceftriaxone 2g IV 24h + Azithromycin",
+                "de": "Ceftriaxon 2g i.v. 24h + Azithromycin"
+            },
+            "Legionella": {
+                "hu": "Azithromycin 500mg IV 24h vagy Levofloxacin 750mg IV 24h",
+                "en": "Azithromycin 500mg IV 24h or Levofloxacin 750mg IV 24h",
+                "de": "Azithromycin 500mg i.v. 24h oder Levofloxacin 750mg i.v. 24h"
+            },
+            "P. aeruginosa rizikó": {
+                "hu": "Piperacillin-tazobaktám 4.5g IV 6h + Ciprofloxacin 400mg IV 12h",
+                "en": "Piperacillin-tazobactam 4.5g IV 6h + Ciprofloxacin 400mg IV 12h",
+                "de": "Piperacillin-Tazobactam 4,5g i.v. 6h + Ciprofloxacin 400mg i.v. 12h"
+            }
         },
         "notes": {
             "hu": "CURB-65 pontszám ≥3, szeptikus sokk, lélegeztetés, P. aeruginosa rizikó: strukturális tüdőbetegség, ismételt iv antibiotikum kezelés 3 hónapon belül",
@@ -191,14 +347,38 @@ window.diseases_en = [
             "Enterobacteriaceae"
         ],
         "empiricalTherapy": {
-            "firstLine": "Ceftriaxone 2g IV 24h vagy Levofloxacin 750mg IV 24h",
-            "alternative": "Ampicillin-sulbactam 3g IV 6h",
-            "duration": "7 nap"
+            "firstLine": {
+                "hu": "Ceftriaxone 2g IV 24h vagy Levofloxacin 750mg IV 24h",
+                "en": "Ceftriaxone 2g IV 24h or Levofloxacin 750mg IV 24h",
+                "de": "Ceftriaxon 2g i.v. 24h oder Levofloxacin 750mg i.v. 24h"
+            },
+            "alternative": {
+                "hu": "Ampicillin-szulbaktám 3g IV 6h",
+                "en": "Ampicillin-sulbactam 3g IV 6h",
+                "de": "Ampicillin-Sulbactam 3g i.v. 6h"
+            },
+            "duration": {
+                "hu": "7 nap",
+                "en": "7 days",
+                "de": "7 Tage"
+            }
         },
         "targetedTherapy": {
-            "S. pneumoniae": "Ceftriaxone 2g IV 24h, 7 nap",
-            "MSSA": "Cefazolin 2g IV 8h, 7 nap",
-            "Enterobacteriaceae": "Ceftriaxone vagy Levofloxacin, 7 nap"
+            "S. pneumoniae": {
+                "hu": "Ceftriaxone 2g IV 24h, 7 nap",
+                "en": "Ceftriaxone 2g IV 24h, 7 days",
+                "de": "Ceftriaxon 2g i.v. 24h, 7 Tage"
+            },
+            "MSSA": {
+                "hu": "Cefazolin 2g IV 8h, 7 nap",
+                "en": "Cefazolin 2g IV 8h, 7 days",
+                "de": "Cefazolin 2g i.v. 8h, 7 Tage"
+            },
+            "Enterobacteriaceae": {
+                "hu": "Ceftriaxone vagy Levofloxacin, 7 nap",
+                "en": "Ceftriaxone or Levofloxacin, 7 days",
+                "de": "Ceftriaxon oder Levofloxacin, 7 Tage"
+            }
         },
         "notes": {
             "hu": "≥48 óra kórházi tartózkodás, nincs MDR rizikófaktor, nem lélegeztetett",
@@ -220,14 +400,38 @@ window.diseases_en = [
             "MRSA"
         ],
         "empiricalTherapy": {
-            "firstLine": "Piperacillin-tazobactam 4.5g IV 6h +/- Vancomycin 15-20mg/kg IV 8-12h (MRSA gyanú esetén)",
-            "alternative": "Meropenem 2g IV 8h +/- Linezolid 600mg IV 12h (MRSA gyanú esetén)",
-            "duration": "7 nap"
+            "firstLine": {
+                "hu": "Piperacillin-tazobaktám 4.5g IV 6h +/- Vancomycin 15-20mg/kg IV 8-12h (MRSA gyanú esetén)",
+                "en": "Piperacillin-tazobactam 4.5g IV 6h +/- Vancomycin 15-20mg/kg IV 8-12h (if MRSA is suspected)",
+                "de": "Piperacillin-Tazobactam 4,5g i.v. 6h +/- Vancomycin 15-20mg/kg i.v. 8-12h (bei MRSA-Verdacht)"
+            },
+            "alternative": {
+                "hu": "Meropenem 2g IV 8h +/- Linezolid 600mg IV 12h (MRSA gyanú esetén)",
+                "en": "Meropenem 2g IV 8h +/- Linezolid 600mg IV 12h (if MRSA is suspected)",
+                "de": "Meropenem 2g i.v. 8h +/- Linezolid 600mg i.v. 12h (bei MRSA-Verdacht)"
+            },
+            "duration": {
+                "hu": "7 nap",
+                "en": "7 days",
+                "de": "7 Tage"
+            }
         },
         "targetedTherapy": {
-            "P. aeruginosa": "Piperacillin-tazobactam + Amikacin 15mg/kg IV 24h, 7 nap",
-            "ESBL": "Meropenem 2g IV 8h, 7 nap",
-            "MRSA": "Vancomycin (15-20mg/kg) vagy Linezolid, 7 nap"
+            "P. aeruginosa": {
+                "hu": "Piperacillin-tazobaktám + Amikacin 15mg/kg IV 24h, 7 nap",
+                "en": "Piperacillin-tazobactam + Amikacin 15mg/kg IV 24h, 7 days",
+                "de": "Piperacillin-Tazobactam + Amikacin 15mg/kg i.v. 24h, 7 Tage"
+            },
+            "ESBL": {
+                "hu": "Meropenem 2g IV 8h, 7 nap",
+                "en": "Meropenem 2g IV 8h, 7 days",
+                "de": "Meropenem 2g i.v. 8h, 7 Tage"
+            },
+            "MRSA": {
+                "hu": "Vancomycin (15-20mg/kg) vagy Linezolid, 7 nap",
+                "en": "Vancomycin (15-20mg/kg) or Linezolid, 7 days",
+                "de": "Vancomycin (15-20mg/kg) oder Linezolid, 7 Tage"
+            }
         },
         "notes": {
             "hu": "MDR rizikófaktorok: >5 nap hospitalizáció, IV antibiotikum 90 napon belül, magas helyi MDR prevalencia",
@@ -249,14 +453,38 @@ window.diseases_en = [
             "Enterobacteriaceae"
         ],
         "empiricalTherapy": {
-            "firstLine": "Ceftriaxone 2g IV 24h",
-            "alternative": "Levofloxacin 750mg IV 24h vagy Ampicillin-sulbactam 3g IV 6h",
-            "duration": "7 nap"
+            "firstLine": {
+                "hu": "Ceftriaxone 2g IV 24h",
+                "en": "Ceftriaxone 2g IV 24h",
+                "de": "Ceftriaxon 2g i.v. 24h"
+            },
+            "alternative": {
+                "hu": "Levofloxacin 750mg IV 24h vagy Ampicillin-szulbaktám 3g IV 6h",
+                "en": "Levofloxacin 750mg IV 24h or Ampicillin-sulbactam 3g IV 6h",
+                "de": "Levofloxacin 750mg i.v. 24h oder Ampicillin-Sulbactam 3g i.v. 6h"
+            },
+            "duration": {
+                "hu": "7 nap",
+                "en": "7 days",
+                "de": "7 Tage"
+            }
         },
         "targetedTherapy": {
-            "S. pneumoniae": "Ceftriaxone 2g IV 24h, 7 nap",
-            "MSSA": "Cefazolin 2g IV 8h, 7 nap",
-            "Enterobacteriaceae": "Ceftriaxone, 7 nap"
+            "S. pneumoniae": {
+                "hu": "Ceftriaxone 2g IV 24h, 7 nap",
+                "en": "Ceftriaxone 2g IV 24h, 7 days",
+                "de": "Ceftriaxon 2g i.v. 24h, 7 Tage"
+            },
+            "MSSA": {
+                "hu": "Cefazolin 2g IV 8h, 7 nap",
+                "en": "Cefazolin 2g IV 8h, 7 days",
+                "de": "Cefazolin 2g i.v. 8h, 7 Tage"
+            },
+            "Enterobacteriaceae": {
+                "hu": "Ceftriaxone, 7 nap",
+                "en": "Ceftriaxone, 7 days",
+                "de": "Ceftriaxon, 7 Tage"
+            }
         },
         "notes": {
             "hu": "<5 nap lélegeztetés, nincs MDR rizikófaktor",
@@ -278,15 +506,43 @@ window.diseases_en = [
             "MRSA"
         ],
         "empiricalTherapy": {
-            "firstLine": "Meropenem 2g IV 8h + Vancomycin 15-20mg/kg IV 8-12h + Amikacin 15mg/kg IV 24h",
-            "alternative": "Ceftazidime-avibactam 2.5g IV 8h + Linezolid 600mg IV 12h",
-            "duration": "7 nap"
+            "firstLine": {
+                "hu": "Meropenem 2g IV 8h + Vancomycin 15-20mg/kg IV 8-12h + Amikacin 15mg/kg IV 24h",
+                "en": "Meropenem 2g IV 8h + Vancomycin 15-20mg/kg IV 8-12h + Amikacin 15mg/kg IV 24h",
+                "de": "Meropenem 2g i.v. 8h + Vancomycin 15-20mg/kg i.v. 8-12h + Amikacin 15mg/kg i.v. 24h"
+            },
+            "alternative": {
+                "hu": "Ceftazidim-avibaktám 2.5g IV 8h + Linezolid 600mg IV 12h",
+                "en": "Ceftazidime-avibactam 2.5g IV 8h + Linezolid 600mg IV 12h",
+                "de": "Ceftazidim-Avibactam 2,5g i.v. 8h + Linezolid 600mg i.v. 12h"
+            },
+            "duration": {
+                "hu": "7 nap",
+                "en": "7 days",
+                "de": "7 Tage"
+            }
         },
         "targetedTherapy": {
-            "P. aeruginosa (MDR)": "Ceftazidime-avibactam + Amikacin, 7 nap",
-            "A. baumannii (XDR)": "Colistin + Meropenem + Ampicillin-sulbactam, 7-14 nap",
-            "KPC": "Meropenem-vaborbactam vagy Ceftazidime-avibactam, 7 nap",
-            "MRSA": "Vancomycin (trough 15-20) vagy Linezolid, 7 nap"
+            "P. aeruginosa (MDR)": {
+                "hu": "Ceftazidim-avibaktám + Amikacin, 7 nap",
+                "en": "Ceftazidime-avibactam + Amikacin, 7 days",
+                "de": "Ceftazidim-Avibactam + Amikacin, 7 Tage"
+            },
+            "A. baumannii (XDR)": {
+                "hu": "Colistin + Meropenem + Ampicillin-szulbaktám, 7-14 nap",
+                "en": "Colistin + Meropenem + Ampicillin-sulbactam, 7-14 days",
+                "de": "Colistin + Meropenem + Ampicillin-Sulbactam, 7-14 Tage"
+            },
+            "KPC": {
+                "hu": "Meropenem-vaborbaktám vagy Ceftazidim-avibaktám, 7 nap",
+                "en": "Meropenem-vaborbactam or Ceftazidime-avibactam, 7 days",
+                "de": "Meropenem-Vaborbactam oder Ceftazidim-Avibactam, 7 Tage"
+            },
+            "MRSA": {
+                "hu": "Vancomycin (trough 15-20) vagy Linezolid, 7 nap",
+                "en": "Vancomycin (trough 15-20) or Linezolid, 7 days",
+                "de": "Vancomycin (Spiegel 15-20) oder Linezolid, 7 Tage"
+            }
         },
         "notes": {
             "hu": "≥5 nap lélegeztetés, kombinált terápia MDR patogének ellen, de-eszkaláció tenyésztés alapján",
@@ -308,17 +564,53 @@ window.diseases_en = [
             "HACEK"
         ],
         "empiricalTherapy": {
-            "firstLine": "Amoxicillin clavulanate 875/125mg IV 12h + Ceftriaxone 2g IV 12h",
-            "alternative": "Daptomycin 8-10mg/kg IV 24h + Ceftriaxone 2g IV 12h",
-            "duration": "4-6 hét (patogén függő)"
+            "firstLine": {
+                "hu": "Amoxicillin-klavulánsav 875/125mg IV 12h + Ceftriaxone 2g IV 12h",
+                "en": "Amoxicillin-clavulanate 875/125mg IV 12h + Ceftriaxone 2g IV 12h",
+                "de": "Amoxicillin-Clavulansäure 875/125mg i.v. 12h + Ceftriaxon 2g i.v. 12h"
+            },
+            "alternative": {
+                "hu": "Daptomycin 8-10mg/kg IV 24h + Ceftriaxone 2g IV 12h",
+                "en": "Daptomycin 8-10mg/kg IV 24h + Ceftriaxone 2g IV 12h",
+                "de": "Daptomycin 8-10mg/kg i.v. 24h + Ceftriaxon 2g i.v. 12h"
+            },
+            "duration": {
+                "hu": "4-6 hét (patogén függő)",
+                "en": "4-6 weeks (pathogen dependent)",
+                "de": "4-6 Wochen (erregerabhängig)"
+            }
         },
         "targetedTherapy": {
-            "S. aureus (MSSA)": "Flucloxacillin 2g IV 4h, vagy cefazolin 2g IV 8h, 6 hét (± Gentamicin 3mg/kg IV 24h első 3-5 nap)",
-            "S. aureus (MRSA)": "Vancomycin 15-20mg/kg IV 8-12h, 6 hét vagy Daptomycin 8-10mg/kg IV 24h, 6 hét",
-            "Viridans streptococci (MIC ≤0.125)": "Penicillin G 12-18 MU IV/nap, 4 hét vagy Ceftriaxone 2g IV 24h, 4 hét",
-            "Viridans streptococci (MIC >0.125)": "Penicillin G + Gentamicin 3mg/kg IV 24h, 6 hét",
-            "Enterococcus faecalis": "Ampicillin 2g IV 4h + Gentamicin 3mg/kg IV 24h, 6 hét",
-            "HACEK": "Ceftriaxone 2g IV 24h, 6 hét",
+            "S. aureus (MSSA)": {
+                "hu": "Flucloxacillin 2g IV 4h, vagy cefazolin 2g IV 8h, 6 hét (± Gentamicin 3mg/kg IV 24h első 3-5 nap)",
+                "en": "Flucloxacillin 2g IV 4h, or cefazolin 2g IV 8h, 6 weeks (± Gentamicin 3mg/kg IV 24h for first 3-5 days)",
+                "de": "Flucloxacillin 2g i.v. 4h, oder Cefazolin 2g i.v. 8h, 6 Wochen (± Gentamicin 3mg/kg i.v. 24h für die ersten 3-5 Tage)"
+            },
+            "S. aureus (MRSA)": {
+                "hu": "Vancomycin 15-20mg/kg IV 8-12h, 6 hét vagy Daptomycin 8-10mg/kg IV 24h, 6 hét",
+                "en": "Vancomycin 15-20mg/kg IV 8-12h, 6 weeks or Daptomycin 8-10mg/kg IV 24h, 6 weeks",
+                "de": "Vancomycin 15-20mg/kg i.v. 8-12h, 6 Wochen oder Daptomycin 8-10mg/kg i.v. 24h, 6 Wochen"
+            },
+            "Viridans streptococci (MIC ≤0.125)": {
+                "hu": "Penicillin G 12-18 MU IV/nap, 4 hét vagy Ceftriaxone 2g IV 24h, 4 hét",
+                "en": "Penicillin G 12-18 MU IV/day, 4 weeks or Ceftriaxone 2g IV 24h, 4 weeks",
+                "de": "Penicillin G 12-18 ME i.v./Tag, 4 Wochen oder Ceftriaxon 2g i.v. 24h, 4 Wochen"
+            },
+            "Viridans streptococci (MIC >0.125)": {
+                "hu": "Penicillin G + Gentamicin 3mg/kg IV 24h, 6 hét",
+                "en": "Penicillin G + Gentamicin 3mg/kg IV 24h, 6 weeks",
+                "de": "Penicillin G + Gentamicin 3mg/kg i.v. 24h, 6 Wochen"
+            },
+            "Enterococcus faecalis": {
+                "hu": "Ampicillin 2g IV 4h + Gentamicin 3mg/kg IV 24h, 6 hét",
+                "en": "Ampicillin 2g IV 4h + Gentamicin 3mg/kg IV 24h, 6 weeks",
+                "de": "Ampicillin 2g i.v. 4h + Gentamicin 3mg/kg i.v. 24h, 6 Wochen"
+            },
+            "HACEK": {
+                "hu": "Ceftriaxone 2g IV 24h, 6 hét",
+                "en": "Ceftriaxone 2g IV 24h, 6 weeks",
+                "de": "Ceftriaxon 2g i.v. 24h, 6 Wochen"
+            }
                     },
         "notes": {
             "hu": "TEE kötelező, sebészeti konzílium indikációk: szívelégtelenség, abszcesszus, nagy vegetáció (>10mm), ismételt embolizáció",
@@ -341,16 +633,48 @@ window.diseases_en = [
             "Coxiella"
         ],
         "empiricalTherapy": {
-            "firstLine": "Ampicillin 2g IV 4h + Gentamicin 3mg/kg IV 24h",
-            "alternative": "Ceftriaxone 2g IV 24h + Vancomycin 15-20mg/kg IV 8-12h",
-            "duration": "4-6 hét"
+            "firstLine": {
+                "hu": "Ampicillin 2g IV 4h + Gentamicin 3mg/kg IV 24h",
+                "en": "Ampicillin 2g IV 4h + Gentamicin 3mg/kg IV 24h",
+                "de": "Ampicillin 2g i.v. 4h + Gentamicin 3mg/kg i.v. 24h"
+            },
+            "alternative": {
+                "hu": "Ceftriaxone 2g IV 24h + Vancomycin 15-20mg/kg IV 8-12h",
+                "en": "Ceftriaxone 2g IV 24h + Vancomycin 15-20mg/kg IV 8-12h",
+                "de": "Ceftriaxon 2g i.v. 24h + Vancomycin 15-20mg/kg i.v. 8-12h"
+            },
+            "duration": {
+                "hu": "4-6 hét",
+                "en": "4-6 weeks",
+                "de": "4-6 Wochen"
+            }
         },
         "targetedTherapy": {
-            "Viridans streptococci": "Penicillin G 12-18 MU IV/nap, 4 hét",
-            "Enterococcus": "Ampicillin + Gentamicin, 6 hét",
-            "HACEK": "Ceftriaxone 2g IV 24h, 6 hét",
-            "Bartonella": "Doxycycline 100mg PO 12h + Gentamicin, 6 hét",
-            "Coxiella burnetii": "Doxycycline + Hydroxychloroquine, 18 hónap"
+            "Viridans streptococci": {
+                "hu": "Penicillin G 12-18 MU IV/nap, 4 hét",
+                "en": "Penicillin G 12-18 MU IV/day, 4 weeks",
+                "de": "Penicillin G 12-18 ME i.v./Tag, 4 Wochen"
+            },
+            "Enterococcus": {
+                "hu": "Ampicillin + Gentamicin, 6 hét",
+                "en": "Ampicillin + Gentamicin, 6 weeks",
+                "de": "Ampicillin + Gentamicin, 6 Wochen"
+            },
+            "HACEK": {
+                "hu": "Ceftriaxone 2g IV 24h, 6 hét",
+                "en": "Ceftriaxone 2g IV 24h, 6 weeks",
+                "de": "Ceftriaxon 2g i.v. 24h, 6 Wochen"
+            },
+            "Bartonella": {
+                "hu": "Doxycycline 100mg PO 12h + Gentamicin, 6 hét",
+                "en": "Doxycycline 100mg PO 12h + Gentamicin, 6 weeks",
+                "de": "Doxycyclin 100mg p.o. 12h + Gentamicin, 6 Wochen"
+            },
+            "Coxiella burnetii": {
+                "hu": "Doxycycline + Hydroxychloroquine, 18 hónap",
+                "en": "Doxycycline + Hydroxychloroquine, 18 months",
+                "de": "Doxycyclin + Hydroxychloroquin, 18 Monate"
+            }
         },
         "notes": {
             "hu": "Lassú progresszió, gyakran előzetesen károsodott billentyű, TEE ajánlott",
@@ -372,16 +696,48 @@ window.diseases_en = [
             "Gram-negatív bacilli"
         ],
         "empiricalTherapy": {
-            "firstLine": "Vancomycin 15-20mg/kg IV 8-12h + Gentamicin 3mg/kg IV 24h + Rifampin 300mg PO 12h",
-            "alternative": "Daptomycin 10mg/kg IV 24h + Gentamicin + Rifampin",
-            "duration": "6 hét"
+            "firstLine": {
+                "hu": "Vancomycin 15-20mg/kg IV 8-12h + Gentamicin 3mg/kg IV 24h + Rifampin 300mg PO 12h",
+                "en": "Vancomycin 15-20mg/kg IV 8-12h + Gentamicin 3mg/kg IV 24h + Rifampin 300mg PO 12h",
+                "de": "Vancomycin 15-20mg/kg i.v. 8-12h + Gentamicin 3mg/kg i.v. 24h + Rifampicin 300mg p.o. 12h"
+            },
+            "alternative": {
+                "hu": "Daptomycin 10mg/kg IV 24h + Gentamicin + Rifampin",
+                "en": "Daptomycin 10mg/kg IV 24h + Gentamicin + Rifampin",
+                "de": "Daptomycin 10mg/kg i.v. 24h + Gentamicin + Rifampicin"
+            },
+            "duration": {
+                "hu": "6 hét",
+                "en": "6 weeks",
+                "de": "6 Wochen"
+            }
         },
         "targetedTherapy": {
-            "CoNS (methicillin-R)": "Vancomycin + Gentamicin (2 hét) + Rifampin, 6 hét",
-            "S. aureus (MSSA)": "Flucloxacillin + Gentamicin (2 hét) + Rifampin, 6 hét",
-            "S. aureus (MRSA)": "Vancomycin + Gentamicin (2 hét) + Rifampin, 6 hét",
-            "Enterococcus": "Ampicillin + Gentamicin, 6 hét (rifampin nem ajánlott)",
-            "Gram-negatív": "Meropenem + Gentamicin, 6 hét"
+            "CoNS (methicillin-R)": {
+                "hu": "Vancomycin + Gentamicin (2 hét) + Rifampin, 6 hét",
+                "en": "Vancomycin + Gentamicin (2 weeks) + Rifampin, 6 weeks",
+                "de": "Vancomycin + Gentamicin (2 Wochen) + Rifampicin, 6 Wochen"
+            },
+            "S. aureus (MSSA)": {
+                "hu": "Flucloxacillin + Gentamicin (2 hét) + Rifampin, 6 hét",
+                "en": "Flucloxacillin + Gentamicin (2 weeks) + Rifampin, 6 weeks",
+                "de": "Flucloxacillin + Gentamicin (2 Wochen) + Rifampicin, 6 Wochen"
+            },
+            "S. aureus (MRSA)": {
+                "hu": "Vancomycin + Gentamicin (2 hét) + Rifampin, 6 hét",
+                "en": "Vancomycin + Gentamicin (2 weeks) + Rifampin, 6 weeks",
+                "de": "Vancomycin + Gentamicin (2 Wochen) + Rifampicin, 6 Wochen"
+            },
+            "Enterococcus": {
+                "hu": "Ampicillin + Gentamicin, 6 hét (rifampin nem ajánlott)",
+                "en": "Ampicillin + Gentamicin, 6 weeks (rifampin not recommended)",
+                "de": "Ampicillin + Gentamicin, 6 Wochen (Rifampicin nicht empfohlen)"
+            },
+            "Gram-negatív": {
+                "hu": "Meropenem + Gentamicin, 6 hét",
+                "en": "Meropenem + Gentamicin, 6 weeks",
+                "de": "Meropenem + Gentamicin, 6 Wochen"
+            }
         },
         "notes": {
             "hu": "Sebészeti kezelés gyakran szükséges, rifampin csak biofilm-képző Gram-pozitív coccusok esetén",
@@ -403,15 +759,43 @@ window.diseases_en = [
             "CoNS"
         ],
         "empiricalTherapy": {
-            "firstLine": "Vancomycin 15-20mg/kg IV 8-12h + Gentamicin 3mg/kg IV 24h + Rifampin 300mg PO 12h",
-            "alternative": "Ampicillin 2g IV 4h + Vancomycin + Gentamicin",
-            "duration": "6 hét"
+            "firstLine": {
+                "hu": "Vancomycin 15-20mg/kg IV 8-12h + Gentamicin 3mg/kg IV 24h + Rifampin 300mg PO 12h",
+                "en": "Vancomycin 15-20mg/kg IV 8-12h + Gentamicin 3mg/kg IV 24h + Rifampin 300mg PO 12h",
+                "de": "Vancomycin 15-20mg/kg i.v. 8-12h + Gentamicin 3mg/kg i.v. 24h + Rifampicin 300mg p.o. 12h"
+            },
+            "alternative": {
+                "hu": "Ampicillin 2g IV 4h + Vancomycin + Gentamicin",
+                "en": "Ampicillin 2g IV 4h + Vancomycin + Gentamicin",
+                "de": "Ampicillin 2g i.v. 4h + Vancomycin + Gentamicin"
+            },
+            "duration": {
+                "hu": "6 hét",
+                "en": "6 weeks",
+                "de": "6 Wochen"
+            }
         },
         "targetedTherapy": {
-            "Viridans streptococci": "Penicillin G + Gentamicin (2 hét), 6 hét",
-            "Enterococcus": "Ampicillin + Gentamicin, 6 hét",
-            "S. aureus": "Flucloxacillin/Vancomycin + Gentamicin (2 hét) + Rifampin, 6 hét",
-            "CoNS": "Vancomycin + Gentamicin (2 hét) + Rifampin, 6 hét"
+            "Viridans streptococci": {
+                "hu": "Penicillin G + Gentamicin (2 hét), 6 hét",
+                "en": "Penicillin G + Gentamicin (2 weeks), 6 weeks",
+                "de": "Penicillin G + Gentamicin (2 Wochen), 6 Wochen"
+            },
+            "Enterococcus": {
+                "hu": "Ampicillin + Gentamicin, 6 hét",
+                "en": "Ampicillin + Gentamicin, 6 weeks",
+                "de": "Ampicillin + Gentamicin, 6 Wochen"
+            },
+            "S. aureus": {
+                "hu": "Flucloxacillin/Vancomycin + Gentamicin (2 hét) + Rifampin, 6 hét",
+                "en": "Flucloxacillin/Vancomycin + Gentamicin (2 weeks) + Rifampin, 6 weeks",
+                "de": "Flucloxacillin/Vancomycin + Gentamicin (2 Wochen) + Rifampicin, 6 Wochen"
+            },
+            "CoNS": {
+                "hu": "Vancomycin + Gentamicin (2 hét) + Rifampin, 6 hét",
+                "en": "Vancomycin + Gentamicin (2 weeks) + Rifampin, 6 weeks",
+                "de": "Vancomycin + Gentamicin (2 Wochen) + Rifampicin, 6 Wochen"
+            }
         },
         "notes": {
             "hu": "Hasonló natív billentyű endocarditishez, de hosszabb kezelési idő és rifampin mérlegelése",
@@ -433,15 +817,43 @@ window.diseases_en = [
             "Enterococcus"
         ],
         "empiricalTherapy": {
-            "firstLine": "Nitrofurantoin 100mg PO 12h, 5 nap",
-            "alternative": "Fosfomycin 3g PO egyszeri vagy TMP-SMX 160/800mg PO 12h, 3 nap",
-            "duration": "3-5 nap"
+            "firstLine": {
+                "hu": "Nitrofurantoin 100mg PO 12h, 5 nap",
+                "en": "Nitrofurantoin 100mg PO 12h, 5 days",
+                "de": "Nitrofurantoin 100mg p.o. 12h, 5 Tage"
+            },
+            "alternative": {
+                "hu": "Fosfomycin 3g PO egyszeri vagy TMP-SMX 160/800mg PO 12h, 3 nap",
+                "en": "Fosfomycin 3g PO single dose or TMP-SMX 160/800mg PO 12h, 3 days",
+                "de": "Fosfomycin 3g p.o. einmalig oder TMP-SMX 160/800mg p.o. 12h, 3 Tage"
+            },
+            "duration": {
+                "hu": "3-5 nap",
+                "en": "3-5 days",
+                "de": "3-5 Tage"
+            }
         },
         "targetedTherapy": {
-            "E. coli (érzékeny)": "Nitrofurantoin 5 nap vagy TMP-SMX 3 nap",
-            "K. pneumoniae": "TMP-SMX 3 nap vagy Ciprofloxacin 250mg PO 12h, 3 nap",
-            "S. saprophyticus": "Nitrofurantoin 5 nap",
-            "Enterococcus": "Nitrofurantoin 5 nap vagy Amoxicillin 500mg PO 8h, 3 nap"
+            "E. coli (érzékeny)": {
+                "hu": "Nitrofurantoin 5 nap vagy TMP-SMX 3 nap",
+                "en": "Nitrofurantoin 5 days or TMP-SMX 3 days",
+                "de": "Nitrofurantoin 5 Tage oder TMP-SMX 3 Tage"
+            },
+            "K. pneumoniae": {
+                "hu": "TMP-SMX 3 nap vagy Ciprofloxacin 250mg PO 12h, 3 nap",
+                "en": "TMP-SMX 3 days or Ciprofloxacin 250mg PO 12h, 3 days",
+                "de": "TMP-SMX 3 Tage oder Ciprofloxacin 250mg p.o. 12h, 3 Tage"
+            },
+            "S. saprophyticus": {
+                "hu": "Nitrofurantoin 5 nap",
+                "en": "Nitrofurantoin 5 days",
+                "de": "Nitrofurantoin 5 Tage"
+            },
+            "Enterococcus": {
+                "hu": "Nitrofurantoin 5 nap vagy Amoxicillin 500mg PO 8h, 3 nap",
+                "en": "Nitrofurantoin 5 days or Amoxicillin 500mg PO 8h, 3 days",
+                "de": "Nitrofurantoin 5 Tage oder Amoxicillin 500mg p.o. 8h, 3 Tage"
+            }
         },
         "notes": {
             "hu": "Empirikusan a Fluorokinolonok kerülendők, nőknél egyszeri fosfomycin dózis hatékony",
@@ -463,15 +875,43 @@ window.diseases_en = [
             "Enterococcus"
         ],
         "empiricalTherapy": {
-            "firstLine": "Cefuroxim 500mg PO 12h, 5 nap",
-            "alternative": "Levofloxacin 750mg PO 24h, 5 nap",
-            "duration": "5-7 nap"
+            "firstLine": {
+                "hu": "Cefuroxim 500mg PO 12h, 5 nap",
+                "en": "Cefuroxime 500mg PO 12h, 5 days",
+                "de": "Cefuroxim 500mg p.o. 12h, 5 Tage"
+            },
+            "alternative": {
+                "hu": "Levofloxacin 750mg PO 24h, 5 nap",
+                "en": "Levofloxacin 750mg PO 24h, 5 days",
+                "de": "Levofloxacin 750mg p.o. 24h, 5 Tage"
+            },
+            "duration": {
+                "hu": "5-7 nap",
+                "en": "5-7 days",
+                "de": "5-7 Tage"
+            }
         },
         "targetedTherapy": {
-            "E. coli (érzékeny)": "Ceftriaxone 2g IV 24h, 7 nap",
-            "K. pneumoniae": "imipenem cilastatin 500mg IV 8h, 7 nap",
-            "P. mirabilis": "Ciprofloxacin vagy TMP-SMX, 7 nap",
-            "Enterococcus": "Amoxicillin 1g PO 8h, 10-14 nap"
+            "E. coli (érzékeny)": {
+                "hu": "Ceftriaxone 2g IV 24h, 7 nap",
+                "en": "Ceftriaxone 2g IV 24h, 7 days",
+                "de": "Ceftriaxon 2g i.v. 24h, 7 Tage"
+            },
+            "K. pneumoniae": {
+                "hu": "Imipenem-cilasztatin 500mg IV 8h, 7 nap",
+                "en": "Imipenem-cilastatin 500mg IV 8h, 7 days",
+                "de": "Imipenem-Cilastatin 500mg i.v. 8h, 7 Tage"
+            },
+            "P. mirabilis": {
+                "hu": "Ciprofloxacin vagy TMP-SMX, 7 nap",
+                "en": "Ciprofloxacin or TMP-SMX, 7 days",
+                "de": "Ciprofloxacin oder TMP-SMX, 7 Tage"
+            },
+            "Enterococcus": {
+                "hu": "Amoxicillin 1g PO 8h, 10-14 nap",
+                "en": "Amoxicillin 1g PO 8h, 10-14 days",
+                "de": "Amoxicillin 1g p.o. 8h, 10-14 Tage"
+            }
         },
         "notes": {
             "hu": "Ambuláns kezelés: enyhe-közepes tünetek, nincs hányás, nincs szepszis jel",
@@ -494,15 +934,43 @@ window.diseases_en = [
             "P. aeruginosa"
         ],
         "empiricalTherapy": {
-            "firstLine": "Ceftriaxone 2g IV 24h",
-            "alternative": "Piperacillin-tazobactam 4.5g IV 8h (szepszis gyanú) vagy Meropenem 1g IV 8h (ESBL rizikó)",
-            "duration": "10-14 nap"
+            "firstLine": {
+                "hu": "Ceftriaxone 2g IV 24h",
+                "en": "Ceftriaxone 2g IV 24h",
+                "de": "Ceftriaxon 2g i.v. 24h"
+            },
+            "alternative": {
+                "hu": "Piperacillin-tazobaktám 4.5g IV 8h (szepszis gyanú) vagy Meropenem 1g IV 8h (ESBL rizikó)",
+                "en": "Piperacillin-tazobactam 4.5g IV 8h (suspected sepsis) or Meropenem 1g IV 8h (ESBL risk)",
+                "de": "Piperacillin-Tazobactam 4,5g i.v. 8h (bei Sepsisverdacht) oder Meropenem 1g i.v. 8h (ESBL-Risiko)"
+            },
+            "duration": {
+                "hu": "10-14 nap",
+                "en": "10-14 days",
+                "de": "10-14 Tage"
+            }
         },
         "targetedTherapy": {
-            "E. coli": "Ceftriaxone 2g IV 24h, 10-14 nap",
-            "K. pneumoniae (ESBL)": "Meropenem 1g IV 8h, 10-14 nap",
-            "P. aeruginosa": "Piperacillin-tazobactam + Ciprofloxacin, 14 nap",
-            "Enterococcus": "Ampicillin 2g IV 6h, 10-14 nap"
+            "E. coli": {
+                "hu": "Ceftriaxone 2g IV 24h, 10-14 nap",
+                "en": "Ceftriaxone 2g IV 24h, 10-14 days",
+                "de": "Ceftriaxon 2g i.v. 24h, 10-14 Tage"
+            },
+            "K. pneumoniae (ESBL)": {
+                "hu": "Meropenem 1g IV 8h, 10-14 nap",
+                "en": "Meropenem 1g IV 8h, 10-14 days",
+                "de": "Meropenem 1g i.v. 8h, 10-14 Tage"
+            },
+            "P. aeruginosa": {
+                "hu": "Piperacillin-tazobaktám + Ciprofloxacin, 14 nap",
+                "en": "Piperacillin-tazobactam + Ciprofloxacin, 14 days",
+                "de": "Piperacillin-Tazobactam + Ciprofloxacin, 14 Tage"
+            },
+            "Enterococcus": {
+                "hu": "Ampicillin 2g IV 6h, 10-14 nap",
+                "en": "Ampicillin 2g IV 6h, 10-14 days",
+                "de": "Ampicillin 2g i.v. 6h, 10-14 Tage"
+            }
         },
         "notes": {
             "hu": "Hospitalizáció: súlyos tünetek, hányás, szepszis, komorbiditások, terhesség",
@@ -525,15 +993,43 @@ window.diseases_en = [
             "Enterobacter"
         ],
         "empiricalTherapy": {
-            "firstLine": "Piperacillin-tazobactam 4.5g IV 8h vagy Meropenem 1g IV 8h",
-            "alternative": "Ceftazidime 2g IV 8h + Vancomycin 15mg/kg IV 12h",
-            "duration": "7-14 nap"
+            "firstLine": {
+                "hu": "Piperacillin-tazobaktám 4.5g IV 8h vagy Meropenem 1g IV 8h",
+                "en": "Piperacillin-tazobactam 4.5g IV 8h or Meropenem 1g IV 8h",
+                "de": "Piperacillin-Tazobactam 4,5g i.v. 8h oder Meropenem 1g i.v. 8h"
+            },
+            "alternative": {
+                "hu": "Ceftazidime 2g IV 8h + Vancomycin 15mg/kg IV 12h",
+                "en": "Ceftazidime 2g IV 8h + Vancomycin 15mg/kg IV 12h",
+                "de": "Ceftazidim 2g i.v. 8h + Vancomycin 15mg/kg i.v. 12h"
+            },
+            "duration": {
+                "hu": "7-14 nap",
+                "en": "7-14 days",
+                "de": "7-14 Tage"
+            }
         },
         "targetedTherapy": {
-            "E. coli (ESBL)": "Meropenem 1g IV 8h, 7-14 nap",
-            "P. aeruginosa": "Piperacillin-tazobactam + Amikacin, 7-14 nap",
-            "Enterococcus (VRE)": "Linezolid 600mg IV 12h, 7-14 nap",
-            "Enterobacter": "Meropenem 1g IV 8h, 7-14 nap"
+            "E. coli (ESBL)": {
+                "hu": "Meropenem 1g IV 8h, 7-14 nap",
+                "en": "Meropenem 1g IV 8h, 7-14 days",
+                "de": "Meropenem 1g i.v. 8h, 7-14 Tage"
+            },
+            "P. aeruginosa": {
+                "hu": "Piperacillin-tazobaktám + Amikacin, 7-14 nap",
+                "en": "Piperacillin-tazobactam + Amikacin, 7-14 days",
+                "de": "Piperacillin-Tazobactam + Amikacin, 7-14 Tage"
+            },
+            "Enterococcus (VRE)": {
+                "hu": "Linezolid 600mg IV 12h, 7-14 nap",
+                "en": "Linezolid 600mg IV 12h, 7-14 days",
+                "de": "Linezolid 600mg i.v. 12h, 7-14 Tage"
+            },
+            "Enterobacter": {
+                "hu": "Meropenem 1g IV 8h, 7-14 nap",
+                "en": "Meropenem 1g IV 8h, 7-14 days",
+                "de": "Meropenem 1g i.v. 8h, 7-14 Tage"
+            }
         },
         "notes": {
             "hu": "Anatómiai abnormalitás, katéter, immunszuppresszió, diabetes, terhesség, férfi nem",
@@ -553,14 +1049,38 @@ window.diseases_en = [
             "S. aureus"
         ],
         "empiricalTherapy": {
-            "firstLine": "Flucloxacillin 500mg PO 6h vagy Cefazolin 2g IV 8h",
-            "alternative": "Clindamycin 300mg PO 8h",
-            "duration": "5-10 nap"
+            "firstLine": {
+                "hu": "Flucloxacillin 500mg PO 6h vagy Cefazolin 2g IV 8h",
+                "en": "Flucloxacillin 500mg PO 6h or Cefazolin 2g IV 8h",
+                "de": "Flucloxacillin 500mg p.o. 6h oder Cefazolin 2g i.v. 8h"
+            },
+            "alternative": {
+                "hu": "Clindamycin 300mg PO 8h",
+                "en": "Clindamycin 300mg PO 8h",
+                "de": "Clindamycin 300mg p.o. 8h"
+            },
+            "duration": {
+                "hu": "5-10 nap",
+                "en": "5-10 days",
+                "de": "5-10 Tage"
+            }
         },
         "targetedTherapy": {
-            "S. pyogenes": "Penicillin V vagy Amoxicillin",
-            "S. aureus (MSSA)": "Flucloxacillin vagy Cefazolin 2g IV 8h",
-            "S. aureus (MRSA)": "Clindamycin vagy Doxycycline"
+            "S. pyogenes": {
+                "hu": "Penicillin V vagy Amoxicillin",
+                "en": "Penicillin V or Amoxicillin",
+                "de": "Penicillin V oder Amoxicillin"
+            },
+            "S. aureus (MSSA)": {
+                "hu": "Flucloxacillin vagy Cefazolin 2g IV 8h",
+                "en": "Flucloxacillin or Cefazolin 2g IV 8h",
+                "de": "Flucloxacillin oder Cefazolin 2g i.v. 8h"
+            },
+            "S. aureus (MRSA)": {
+                "hu": "Clindamycin vagy Doxycycline",
+                "en": "Clindamycin or Doxycycline",
+                "de": "Clindamycin oder Doxycyclin"
+            }
         },
         "notes": {
             "hu": "MRSA rizikófaktorok: kórházi expozíció, IV droghasználat",
@@ -581,14 +1101,38 @@ window.diseases_en = [
             "Polimikrobiális"
         ],
         "empiricalTherapy": {
-            "firstLine": "Clindamycin 600mg IV 8h + Penicillin G 4 MU IV 4h",
-            "alternative": "Vancomycin + Piperacillin-tazobactam + Clindamycin",
-            "duration": "Sebészeti debridement + 10-14 nap"
+            "firstLine": {
+                "hu": "Clindamycin 600mg IV 8h + Penicillin G 4 MU IV 4h",
+                "en": "Clindamycin 600mg IV 8h + Penicillin G 4 MU IV 4h",
+                "de": "Clindamycin 600mg i.v. 8h + Penicillin G 4 MU i.v. 4h"
+            },
+            "alternative": {
+                "hu": "Vancomycin + Piperacillin-tazobaktám + Clindamycin",
+                "en": "Vancomycin + Piperacillin-tazobactam + Clindamycin",
+                "de": "Vancomycin + Piperacillin-Tazobactam + Clindamycin"
+            },
+            "duration": {
+                "hu": "Sebészeti debridement + 10-14 nap",
+                "en": "Surgical debridement + 10-14 days",
+                "de": "Chirurgisches Débridement + 10-14 Tage"
+            }
         },
         "targetedTherapy": {
-            "S. pyogenes": "Penicillin G + Clindamycin",
-            "Clostridium": "Penicillin G + Clindamycin",
-            "Polimikrobiális": "Piperacillin-tazobactam + Clindamycin"
+            "S. pyogenes": {
+                "hu": "Penicillin G + Clindamycin",
+                "en": "Penicillin G + Clindamycin",
+                "de": "Penicillin G + Clindamycin"
+            },
+            "Clostridium": {
+                "hu": "Penicillin G + Clindamycin",
+                "en": "Penicillin G + Clindamycin",
+                "de": "Penicillin G + Clindamycin"
+            },
+            "Polimikrobiális": {
+                "hu": "Piperacillin-tazobaktám + Clindamycin",
+                "en": "Piperacillin-tazobactam + Clindamycin",
+                "de": "Piperacillin-Tazobactam + Clindamycin"
+            }
         },
         "notes": {
             "hu": "Sürgős sebészeti beavatkozás szükséges!",
@@ -611,15 +1155,43 @@ window.diseases_en = [
             "S. pyogenes"
         ],
         "empiricalTherapy": {
-            "firstLine": "Piperacillin-tazobactam 4.5g IV 6h + Vancomycin (MRSA gyanú esetén) 15-20mg/kg IV 8-12h (1 órán belül)",
-            "alternative": "Meropenem 2g IV 8h + Vancomycin (MRSA gyanú esetén) 15-20mg/kg IV 8-12h",
-            "duration": "7-10 nap (forrás kontroll után)"
+            "firstLine": {
+                "hu": "Piperacillin-tazobaktám 4.5g IV 6h + Vancomycin (MRSA gyanú esetén) 15-20mg/kg IV 8-12h (1 órán belül)",
+                "en": "Piperacillin-tazobactam 4.5g IV 6h + Vancomycin (if MRSA is suspected) 15-20mg/kg IV 8-12h (within 1 hour)",
+                "de": "Piperacillin-Tazobactam 4,5g i.v. 6h + Vancomycin (bei MRSA-Verdacht) 15-20mg/kg i.v. 8-12h (innerhalb von 1 Stunde)"
+            },
+            "alternative": {
+                "hu": "Meropenem 2g IV 8h + Vancomycin (MRSA gyanú esetén) 15-20mg/kg IV 8-12h",
+                "en": "Meropenem 2g IV 8h + Vancomycin (if MRSA is suspected) 15-20mg/kg IV 8-12h",
+                "de": "Meropenem 2g i.v. 8h + Vancomycin (bei MRSA-Verdacht) 15-20mg/kg i.v. 8-12h"
+            },
+            "duration": {
+                "hu": "7-10 nap (forrás kontroll után)",
+                "en": "7-10 days (after source control)",
+                "de": "7-10 Tage (nach Quellenkontrolle)"
+            }
         },
         "targetedTherapy": {
-            "E. coli": "Ceftriaxone 2g IV 24h, 7-10 nap",
-            "S. pneumoniae": "Ceftriaxone 2g IV 24h, 7-10 nap",
-            "S. aureus (MSSA)": "Flucloxacillin 2g IV 4h, 7-14 nap",
-            "S. pyogenes": "Penicillin G 4 MU IV 4h + Clindamycin 600mg IV 8h, 10-14 nap"
+            "E. coli": {
+                "hu": "Ceftriaxone 2g IV 24h, 7-10 nap",
+                "en": "Ceftriaxone 2g IV 24h, 7-10 days",
+                "de": "Ceftriaxon 2g i.v. 24h, 7-10 Tage"
+            },
+            "S. pneumoniae": {
+                "hu": "Ceftriaxone 2g IV 24h, 7-10 nap",
+                "en": "Ceftriaxone 2g IV 24h, 7-10 days",
+                "de": "Ceftriaxon 2g i.v. 24h, 7-10 Tage"
+            },
+            "S. aureus (MSSA)": {
+                "hu": "Flucloxacillin 2g IV 4h, 7-14 nap",
+                "en": "Flucloxacillin 2g IV 4h, 7-14 days",
+                "de": "Flucloxacillin 2g i.v. 4h, 7-14 Tage"
+            },
+            "S. pyogenes": {
+                "hu": "Penicillin G 4 MU IV 4h + Clindamycin 600mg IV 8h, 10-14 nap",
+                "en": "Penicillin G 4 MU IV 4h + Clindamycin 600mg IV 8h, 10-14 days",
+                "de": "Penicillin G 4 ME i.v. 4h + Clindamycin 600mg i.v. 8h, 10-14 Tage"
+            }
         },
         "notes": {
             "hu": "Surviving Sepsis Campaign: antibiotikum 1 órán belül, hemokultúra előtte, forrás kontroll 6-12 órán belül",
@@ -642,16 +1214,48 @@ window.diseases_en = [
             "Enterococcus (VRE)"
         ],
         "empiricalTherapy": {
-            "firstLine": "Meropenem 2g IV 8h + Vancomycin 15-20mg/kg IV 8-12h + Amikacin 15mg/kg IV 24h",
-            "alternative": "Ceftazidime-avibactam 2.5g IV 8h + Linezolid 600mg IV 12h",
-            "duration": "7-10 nap"
+            "firstLine": {
+                "hu": "Meropenem 2g IV 8h + Vancomycin 15-20mg/kg IV 8-12h + Amikacin 15mg/kg IV 24h",
+                "en": "Meropenem 2g IV 8h + Vancomycin 15-20mg/kg IV 8-12h + Amikacin 15mg/kg IV 24h",
+                "de": "Meropenem 2g i.v. 8h + Vancomycin 15-20mg/kg i.v. 8-12h + Amikacin 15mg/kg i.v. 24h"
+            },
+            "alternative": {
+                "hu": "Ceftazidim-avibaktám 2.5g IV 8h + Linezolid 600mg IV 12h",
+                "en": "Ceftazidime-avibactam 2.5g IV 8h + Linezolid 600mg IV 12h",
+                "de": "Ceftazidim-Avibactam 2,5g i.v. 8h + Linezolid 600mg i.v. 12h"
+            },
+            "duration": {
+                "hu": "7-10 nap",
+                "en": "7-10 days",
+                "de": "7-10 Tage"
+            }
         },
         "targetedTherapy": {
-            "P. aeruginosa (MDR)": "Ceftazidime-avibactam + Amikacin, 7-10 nap",
-            "K. pneumoniae (KPC)": "Meropenem-vaborbactam vagy Ceftazidime-avibactam, 7-10 nap",
-            "A. baumannii (XDR)": "Colistin + Meropenem + Ampicillin-sulbactam, 10-14 nap",
-            "MRSA": "Vancomycin (trough 15-20) vagy Linezolid, 7-10 nap",
-            "VRE": "Linezolid 600mg IV 12h vagy Daptomycin 8-10mg/kg IV 24h, 7-10 nap"
+            "P. aeruginosa (MDR)": {
+                "hu": "Ceftazidim-avibaktám + Amikacin, 7-10 nap",
+                "en": "Ceftazidime-avibactam + Amikacin, 7-10 days",
+                "de": "Ceftazidim-Avibactam + Amikacin, 7-10 Tage"
+            },
+            "K. pneumoniae (KPC)": {
+                "hu": "Meropenem-vaborbaktám vagy Ceftazidim-avibaktám, 7-10 nap",
+                "en": "Meropenem-vaborbactam or Ceftazidime-avibactam, 7-10 days",
+                "de": "Meropenem-Vaborbactam oder Ceftazidim-Avibactam, 7-10 Tage"
+            },
+            "A. baumannii (XDR)": {
+                "hu": "Colistin + Meropenem + Ampicillin-szulbaktám, 10-14 nap",
+                "en": "Colistin + Meropenem + Ampicillin-sulbactam, 10-14 days",
+                "de": "Colistin + Meropenem + Ampicillin-Sulbactam, 10-14 Tage"
+            },
+            "MRSA": {
+                "hu": "Vancomycin (trough 15-20) vagy Linezolid, 7-10 nap",
+                "en": "Vancomycin (trough 15-20) or Linezolid, 7-10 days",
+                "de": "Vancomycin (Spiegel 15-20) oder Linezolid, 7-10 Tage"
+            },
+            "VRE": {
+                "hu": "Linezolid 600mg IV 12h vagy Daptomycin 8-10mg/kg IV 24h, 7-10 nap",
+                "en": "Linezolid 600mg IV 12h or Daptomycin 8-10mg/kg IV 24h, 7-10 days",
+                "de": "Linezolid 600mg i.v. 12h oder Daptomycin 8-10mg/kg i.v. 24h, 7-10 Tage"
+            }
         },
         "notes": {
             "hu": "Kombinált terápia MDR patogének ellen, de-eszkaláció tenyésztés alapján 48-72h után",
@@ -674,15 +1278,43 @@ window.diseases_en = [
             "Enterococcus"
         ],
         "empiricalTherapy": {
-            "firstLine": "Piperacillin-tazobactam 4.5g IV 6h vagy Meropenem 1g IV 8h",
-            "alternative": "Ceftazidime 2g IV 8h + Vancomycin 15mg/kg IV 12h (MRSA gyanú)",
-            "duration": "Neutropenia megszűnéséig + 48h afebrilitásig"
+            "firstLine": {
+                "hu": "Piperacillin-tazobaktám 4.5g IV 6h vagy Meropenem 1g IV 8h",
+                "en": "Piperacillin-tazobactam 4.5g IV 6h or Meropenem 1g IV 8h",
+                "de": "Piperacillin-Tazobactam 4,5g i.v. 6h oder Meropenem 1g i.v. 8h"
+            },
+            "alternative": {
+                "hu": "Ceftazidime 2g IV 8h + Vancomycin 15mg/kg IV 12h (MRSA gyanú)",
+                "en": "Ceftazidime 2g IV 8h + Vancomycin 15mg/kg IV 12h (suspected MRSA)",
+                "de": "Ceftazidim 2g i.v. 8h + Vancomycin 15mg/kg i.v. 12h (MRSA-Verdacht)"
+            },
+            "duration": {
+                "hu": "Neutropenia megszűnéséig + 48h afebrilitásig",
+                "en": "Until neutropenia resolves + 48h afebrile",
+                "de": "Bis zum Abklingen der Neutropenie + 48h fieberfrei"
+            }
         },
         "targetedTherapy": {
-            "P. aeruginosa": "Piperacillin-tazobactam + Amikacin",
-            "ESBL": "Meropenem 1g IV 8h",
-            "MRSA": "Vancomycin vagy Linezolid",
-            "Candida": "+ Caspofungin 50mg IV 24h"
+            "P. aeruginosa": {
+                "hu": "Piperacillin-tazobaktám + Amikacin",
+                "en": "Piperacillin-tazobactam + Amikacin",
+                "de": "Piperacillin-Tazobactam + Amikacin"
+            },
+            "ESBL": {
+                "hu": "Meropenem 1g IV 8h",
+                "en": "Meropenem 1g IV 8h",
+                "de": "Meropenem 1g i.v. 8h"
+            },
+            "MRSA": {
+                "hu": "Vancomycin vagy Linezolid",
+                "en": "Vancomycin or Linezolid",
+                "de": "Vancomycin oder Linezolid"
+            },
+            "Candida": {
+                "hu": "+ Caspofungin 50mg IV 24h",
+                "en": "+ Caspofungin 50mg IV 24h",
+                "de": "+ Caspofungin 50mg i.v. 24h"
+            }
         },
         "notes": {
             "hu": "Antifungális terápia 4-7 nap után ha perzisztáló láz, G-CSF mérlegelése",
@@ -704,15 +1336,43 @@ window.diseases_en = [
             "Enterococcus"
         ],
         "empiricalTherapy": {
-            "firstLine": "Ceftriaxone 2g IV 24h",
-            "alternative": "Piperacillin-tazobactam 4.5g IV 6h",
-            "duration": "5 nap"
+            "firstLine": {
+                "hu": "Ceftriaxone 2g IV 24h",
+                "en": "Ceftriaxone 2g IV 24h",
+                "de": "Ceftriaxon 2g i.v. 24h"
+            },
+            "alternative": {
+                "hu": "Piperacillin-tazobaktám 4.5g IV 6h",
+                "en": "Piperacillin-tazobactam 4.5g IV 6h",
+                "de": "Piperacillin-Tazobactam 4,5g i.v. 6h"
+            },
+            "duration": {
+                "hu": "5 nap",
+                "en": "5 days",
+                "de": "5 Tage"
+            }
         },
         "targetedTherapy": {
-            "E. coli": "Ceftriaxone",
-            "K. pneumoniae": "imipenem-cilastatin vagy Piperacillin-tazobactam (ESBL rizikó)",
-            "S. pneumoniae": "Ceftriaxone vagy Penicillin G",
-            "Enterococcus": "Ampicillin"
+            "E. coli": {
+                "hu": "Ceftriaxone",
+                "en": "Ceftriaxone",
+                "de": "Ceftriaxon"
+            },
+            "K. pneumoniae": {
+                "hu": "Imipenem-cilasztatin vagy Piperacillin-tazobaktám (ESBL rizikó)",
+                "en": "Imipenem-cilastatin or Piperacillin-tazobactam (ESBL risk)",
+                "de": "Imipenem-Cilastatin oder Piperacillin-Tazobactam (ESBL-Risiko)"
+            },
+            "S. pneumoniae": {
+                "hu": "Ceftriaxone vagy Penicillin G",
+                "en": "Ceftriaxone or Penicillin G",
+                "de": "Ceftriaxon oder Penicillin G"
+            },
+            "Enterococcus": {
+                "hu": "Ampicillin",
+                "en": "Ampicillin",
+                "de": "Ampicillin"
+            }
         },
         "notes": {
             "hu": "Ascites PMN >250/µL, albumin pótlás 1,5g/kg 1. nap, 1g/kg 3. nap",
@@ -734,15 +1394,43 @@ window.diseases_en = [
             "K. pneumoniae"
         ],
         "empiricalTherapy": {
-            "firstLine": "Piperacillin-tazobactam 4.5g IV 6h",
-            "alternative": "Meropenem 1g IV 8h vagy Ceftriaxone + Metronidazole",
-            "duration": "5-7 nap (forrás kontroll után)"
+            "firstLine": {
+                "hu": "Piperacillin-tazobaktám 4.5g IV 6h",
+                "en": "Piperacillin-tazobactam 4.5g IV 6h",
+                "de": "Piperacillin-Tazobactam 4,5g i.v. 6h"
+            },
+            "alternative": {
+                "hu": "Meropenem 1g IV 8h vagy Ceftriaxone + Metronidazol",
+                "en": "Meropenem 1g IV 8h or Ceftriaxone + Metronidazole",
+                "de": "Meropenem 1g i.v. 8h oder Ceftriaxon + Metronidazol"
+            },
+            "duration": {
+                "hu": "5-7 nap (forrás kontroll után)",
+                "en": "5-7 days (after source control)",
+                "de": "5-7 Tage (nach Quellenkontrolle)"
+            }
         },
         "targetedTherapy": {
-            "E. coli": "Ceftriaxone + Metronidazole",
-            "B. fragilis": "Metronidazole vagy Clindamycin",
-            "Enterococcus": "Ampicillin",
-            "Pseudomonas": "Piperacillin-tazobactam + Ciprofloxacin"
+            "E. coli": {
+                "hu": "Ceftriaxone + Metronidazol",
+                "en": "Ceftriaxone + Metronidazole",
+                "de": "Ceftriaxon + Metronidazol"
+            },
+            "B. fragilis": {
+                "hu": "Metronidazol vagy Clindamycin",
+                "en": "Metronidazole or Clindamycin",
+                "de": "Metronidazol oder Clindamycin"
+            },
+            "Enterococcus": {
+                "hu": "Ampicillin",
+                "en": "Ampicillin",
+                "de": "Ampicillin"
+            },
+            "Pseudomonas": {
+                "hu": "Piperacillin-tazobaktám + Ciprofloxacin",
+                "en": "Piperacillin-tazobactam + Ciprofloxacin",
+                "de": "Piperacillin-Tazobactam + Ciprofloxacin"
+            }
         },
         "notes": {
             "hu": "Forrás kontroll kritikus! Sebészeti beavatkozás szükséges",
@@ -764,15 +1452,43 @@ window.diseases_en = [
             "A. baumannii"
         ],
         "empiricalTherapy": {
-            "firstLine": "Meropenem 2g IV 8h + Vancomycin 15-20mg/kg IV 8-12h + Fluconazole 400mg IV 24h",
-            "alternative": "Ceftazidime-avibactam + Linezolid + Caspofungin",
-            "duration": "7-14 nap"
+            "firstLine": {
+                "hu": "Meropenem 2g IV 8h + Vancomycin 15-20mg/kg IV 8-12h + Fluconazole 400mg IV 24h",
+                "en": "Meropenem 2g IV 8h + Vancomycin 15-20mg/kg IV 8-12h + Fluconazole 400mg IV 24h",
+                "de": "Meropenem 2g i.v. 8h + Vancomycin 15-20mg/kg i.v. 8-12h + Fluconazol 400mg i.v. 24h"
+            },
+            "alternative": {
+                "hu": "Ceftazidim-avibaktám + Linezolid + Caspofungin",
+                "en": "Ceftazidime-avibactam + Linezolid + Caspofungin",
+                "de": "Ceftazidim-Avibactam + Linezolid + Caspofungin"
+            },
+            "duration": {
+                "hu": "7-14 nap",
+                "en": "7-14 days",
+                "de": "7-14 Tage"
+            }
         },
         "targetedTherapy": {
-            "Candida albicans": "Fluconazole 400mg IV 24h",
-            "Candida glabrata": "Caspofungin 50mg IV 24h",
-            "VRE": "Linezolid vagy Daptomycin",
-            "MDR P. aeruginosa": "Ceftazidime-avibactam + Amikacin"
+            "Candida albicans": {
+                "hu": "Fluconazole 400mg IV 24h",
+                "en": "Fluconazole 400mg IV 24h",
+                "de": "Fluconazol 400mg i.v. 24h"
+            },
+            "Candida glabrata": {
+                "hu": "Caspofungin 50mg IV 24h",
+                "en": "Caspofungin 50mg IV 24h",
+                "de": "Caspofungin 50mg i.v. 24h"
+            },
+            "VRE": {
+                "hu": "Linezolid vagy Daptomycin",
+                "en": "Linezolid or Daptomycin",
+                "de": "Linezolid oder Daptomycin"
+            },
+            "MDR P. aeruginosa": {
+                "hu": "Ceftazidim-avibaktám + Amikacin",
+                "en": "Ceftazidime-avibactam + Amikacin",
+                "de": "Ceftazidim-Avibactam + Amikacin"
+            }
         },
         "notes": {
             "hu": "MDR patogének, antifungális terápia, gyakran fatális kimenetel",
@@ -794,15 +1510,43 @@ window.diseases_en = [
             "Clostridium spp."
         ],
         "empiricalTherapy": {
-            "firstLine": "Ceftriaxone 1g IV 24h + Metronidazole 500mg IV 8h",
-            "alternative": "Piperacillin-tazobactam 4.5g IV 6h",
-            "duration": "7-10 nap"
+            "firstLine": {
+                "hu": "Ceftriaxone 1g IV 24h + Metronidazol 500mg IV 8h",
+                "en": "Ceftriaxone 1g IV 24h + Metronidazole 500mg IV 8h",
+                "de": "Ceftriaxon 1g i.v. 24h + Metronidazol 500mg i.v. 8h"
+            },
+            "alternative": {
+                "hu": "Piperacillin-tazobaktám 4.5g IV 6h",
+                "en": "Piperacillin-tazobactam 4.5g IV 6h",
+                "de": "Piperacillin-Tazobactam 4,5g i.v. 6h"
+            },
+            "duration": {
+                "hu": "7-10 nap",
+                "en": "7-10 days",
+                "de": "7-10 Tage"
+            }
         },
         "targetedTherapy": {
-            "E. coli": "Ceftriaxone + Metronidazole",
-            "K. pneumoniae": "Ceftriaxone + Metronidazole",
-            "Enterococcus": "Ampicillin-sulbactam",
-            "Clostridium": "Metronidazole"
+            "E. coli": {
+                "hu": "Ceftriaxone + Metronidazol",
+                "en": "Ceftriaxone + Metronidazole",
+                "de": "Ceftriaxon + Metronidazol"
+            },
+            "K. pneumoniae": {
+                "hu": "Ceftriaxone + Metronidazol",
+                "en": "Ceftriaxone + Metronidazole",
+                "de": "Ceftriaxon + Metronidazol"
+            },
+            "Enterococcus": {
+                "hu": "Ampicillin-szulbaktám",
+                "en": "Ampicillin-sulbactam",
+                "de": "Ampicillin-Sulbactam"
+            },
+            "Clostridium": {
+                "hu": "Metronidazol",
+                "en": "Metronidazole",
+                "de": "Metronidazol"
+            }
         },
         "notes": {
             "hu": "Laparoszkópos cholecystectomia 72 órán belül, ha lehetséges",
@@ -824,15 +1568,43 @@ window.diseases_en = [
             "B. fragilis"
         ],
         "empiricalTherapy": {
-            "firstLine": "Piperacillin-tazobactam 4.5g IV 6h",
-            "alternative": "Meropenem 1g IV 8h vagy Ceftriaxone 1g IV 24h + Metronidazole 500mg IV 8h",
-            "duration": "7-10 nap (lefolyás függő)"
+            "firstLine": {
+                "hu": "Piperacillin-tazobaktám 4.5g IV 6h",
+                "en": "Piperacillin-tazobactam 4.5g IV 6h",
+                "de": "Piperacillin-Tazobactam 4,5g i.v. 6h"
+            },
+            "alternative": {
+                "hu": "Meropenem 1g IV 8h vagy Ceftriaxone 1g IV 24h + Metronidazol 500mg IV 8h",
+                "en": "Meropenem 1g IV 8h or Ceftriaxone 1g IV 24h + Metronidazole 500mg IV 8h",
+                "de": "Meropenem 1g i.v. 8h oder Ceftriaxon 1g i.v. 24h + Metronidazol 500mg i.v. 8h"
+            },
+            "duration": {
+                "hu": "7-10 nap (lefolyás függő)",
+                "en": "7-10 days (depending on course)",
+                "de": "7-10 Tage (verlaufsabhängig)"
+            }
         },
         "targetedTherapy": {
-            "E. coli": "Ceftriaxone + Metronidazole",
-            "K. pneumoniae": "Ceftriaxone + Metronidazole",
-            "Enterococcus": "Ampicillin + Gentamicin",
-            "B. fragilis": "Metronidazole"
+            "E. coli": {
+                "hu": "Ceftriaxone + Metronidazol",
+                "en": "Ceftriaxone + Metronidazole",
+                "de": "Ceftriaxon + Metronidazol"
+            },
+            "K. pneumoniae": {
+                "hu": "Ceftriaxone + Metronidazol",
+                "en": "Ceftriaxone + Metronidazole",
+                "de": "Ceftriaxon + Metronidazol"
+            },
+            "Enterococcus": {
+                "hu": "Ampicillin + Gentamicin",
+                "en": "Ampicillin + Gentamicin",
+                "de": "Ampicillin + Gentamicin"
+            },
+            "B. fragilis": {
+                "hu": "Metronidazol",
+                "en": "Metronidazole",
+                "de": "Metronidazol"
+            }
         },
         "notes": {
             "hu": "Biliáris dekompresszió szükséges (ERCP), súlyos szepszis esetén ICU kezelés",
@@ -854,14 +1626,38 @@ window.diseases_en = [
             "Pseudomonas (perforált)"
         ],
         "empiricalTherapy": {
-            "firstLine": "Cefazolin 2g IV 8h + Metronidazole 500mg IV 8h",
-            "alternative": "Ceftriaxone 1g IV 24h + Metronidazole 500mg IV 8h vagy Piperacillin-tazobactam 4.5g IV 6h",
-            "duration": "24h (nem perforált) - 7 nap (perforált)"
+            "firstLine": {
+                "hu": "Cefazolin 2g IV 8h + Metronidazol 500mg IV 8h",
+                "en": "Cefazolin 2g IV 8h + Metronidazole 500mg IV 8h",
+                "de": "Cefazolin 2g i.v. 8h + Metronidazol 500mg i.v. 8h"
+            },
+            "alternative": {
+                "hu": "Ceftriaxone 1g IV 24h + Metronidazol 500mg IV 8h vagy Piperacillin-tazobaktám 4.5g IV 6h",
+                "en": "Ceftriaxone 1g IV 24h + Metronidazole 500mg IV 8h or Piperacillin-tazobactam 4.5g IV 6h",
+                "de": "Ceftriaxon 1g i.v. 24h + Metronidazol 500mg i.v. 8h oder Piperacillin-Tazobactam 4,5g i.v. 6h"
+            },
+            "duration": {
+                "hu": "24h (nem perforált) - 7 nap (perforált)",
+                "en": "24h (non-perforated) - 7 days (perforated)",
+                "de": "24h (nicht perforiert) - 7 Tage (perforiert)"
+            }
         },
         "targetedTherapy": {
-            "E. coli": "Ceftriaxone + Metronidazole",
-            "B. fragilis": "Metronidazole",
-            "Pseudomonas": "Piperacillin-tazobactam"
+            "E. coli": {
+                "hu": "Ceftriaxone + Metronidazol",
+                "en": "Ceftriaxone + Metronidazole",
+                "de": "Ceftriaxon + Metronidazol"
+            },
+            "B. fragilis": {
+                "hu": "Metronidazol",
+                "en": "Metronidazole",
+                "de": "Metronidazol"
+            },
+            "Pseudomonas": {
+                "hu": "Piperacillin-tazobaktám",
+                "en": "Piperacillin-tazobactam",
+                "de": "Piperacillin-Tazobactam"
+            }
         },
         "notes": {
             "hu": "Appendectomia a definitív terápia, antibiotikum perioperatív profilaxis",
@@ -883,13 +1679,33 @@ window.diseases_en = [
             "Streptococcus"
         ],
         "empiricalTherapy": {
-            "firstLine": "Cefuroxim 500mg PO 12h + Metronidazole 500mg PO 8h",
-            "alternative": "Amoxicillin-clavulanate 875/125mg PO 12h",
-            "duration": "7-10 nap"
+            "firstLine": {
+                "hu": "Cefuroxim 500mg PO 12h + Metronidazol 500mg PO 8h",
+                "en": "Cefuroxime 500mg PO 12h + Metronidazole 500mg PO 8h",
+                "de": "Cefuroxim 500mg p.o. 12h + Metronidazol 500mg p.o. 8h"
+            },
+            "alternative": {
+                "hu": "Amoxicillin-klavulánsav 875/125mg PO 12h",
+                "en": "Amoxicillin-clavulanate 875/125mg PO 12h",
+                "de": "Amoxicillin-Clavulansäure 875/125mg p.o. 12h"
+            },
+            "duration": {
+                "hu": "7-10 nap",
+                "en": "7-10 days",
+                "de": "7-10 Tage"
+            }
         },
         "targetedTherapy": {
-            "E. coli": "Cefuroxim + Metronidazole",
-            "B. fragilis": "Metronidazole"
+            "E. coli": {
+                "hu": "Cefuroxim + Metronidazol",
+                "en": "Cefuroxime + Metronidazole",
+                "de": "Cefuroxim + Metronidazol"
+            },
+            "B. fragilis": {
+                "hu": "Metronidazol",
+                "en": "Metronidazole",
+                "de": "Metronidazol"
+            }
         },
         "notes": {
             "hu": "A legtöbb esetben ambulanter kezelhető, folyékony étrend, abszcesszus esetén drainage szükséges",
@@ -908,14 +1724,38 @@ window.diseases_en = [
             "Clostridioides difficile"
         ],
         "empiricalTherapy": {
-            "firstLine": "Vancomycin 125mg PO 6h, 10 nap",
-            "alternative": "Fidaxomicin 200mg PO 12h, 10 nap",
-            "duration": "10 nap"
+            "firstLine": {
+                "hu": "Vancomycin 125mg PO 6h, 10 nap",
+                "en": "Vancomycin 125mg PO 6h, 10 days",
+                "de": "Vancomycin 125mg p.o. 6h, 10 Tage"
+            },
+            "alternative": {
+                "hu": "Fidaxomicin 200mg PO 12h, 10 nap",
+                "en": "Fidaxomicin 200mg PO 12h, 10 days",
+                "de": "Fidaxomicin 200mg p.o. 12h, 10 Tage"
+            },
+            "duration": {
+                "hu": "10 nap",
+                "en": "10 days",
+                "de": "10 Tage"
+            }
         },
         "targetedTherapy": {
-            "Első epizód (enyhe/közepes)": "Fidaxomicin vagy Vancomycin PO",
-            "Első epizód (súlyos)": "Vancomycin PO + Metronidazole IV",
-            "Recidíva": "Fidaxomicin vagy tapered Vancomycin"
+            "Első epizód (enyhe/közepes)": {
+                "hu": "Fidaxomicin vagy Vancomycin PO",
+                "en": "Fidaxomicin or Vancomycin PO",
+                "de": "Fidaxomicin oder Vancomycin p.o."
+            },
+            "Első epizód (súlyos)": {
+                "hu": "Vancomycin PO + Metronidazol IV",
+                "en": "Vancomycin PO + Metronidazole IV",
+                "de": "Vancomycin p.o. + Metronidazol i.v."
+            },
+            "Recidíva": {
+                "hu": "Fidaxomicin vagy tapered Vancomycin",
+                "en": "Fidaxomicin or tapered Vancomycin",
+                "de": "Fidaxomicin oder ausschleichendes Vancomycin"
+            }
         },
         "notes": {
             "hu": "Recidíváló esetben FMT mérlegelése",
@@ -938,15 +1778,43 @@ window.diseases_en = [
             "K. pneumoniae"
         ],
         "empiricalTherapy": {
-            "firstLine": "Piperacillin-tazobactam 4.5g IV 6h vagy Meropenem 1g IV 8h",
-            "alternative": "Ceftriaxone 1g IV 24h+ Metronidazole 500mg IV 8h",
-            "duration": "10-14 nap (drenázs után)"
+            "firstLine": {
+                "hu": "Piperacillin-tazobaktám 4.5g IV 6h vagy Meropenem 1g IV 8h",
+                "en": "Piperacillin-tazobactam 4.5g IV 6h or Meropenem 1g IV 8h",
+                "de": "Piperacillin-Tazobactam 4,5g i.v. 6h oder Meropenem 1g i.v. 8h"
+            },
+            "alternative": {
+                "hu": "Ceftriaxone 1g IV 24h + Metronidazol 500mg IV 8h",
+                "en": "Ceftriaxone 1g IV 24h + Metronidazole 500mg IV 8h",
+                "de": "Ceftriaxon 1g i.v. 24h + Metronidazol 500mg i.v. 8h"
+            },
+            "duration": {
+                "hu": "10-14 nap (drenázs után)",
+                "en": "10-14 days (after drainage)",
+                "de": "10-14 Tage (nach Drainage)"
+            }
         },
         "targetedTherapy": {
-            "E. coli (ESBL)": "Meropenem",
-            "B. fragilis": "Metronidazole",
-            "Enterococcus": "Ampicillin",
-            "P. aeruginosa": "Piperacillin-tazobactam + Ciprofloxacin"
+            "E. coli (ESBL)": {
+                "hu": "Meropenem",
+                "en": "Meropenem",
+                "de": "Meropenem"
+            },
+            "B. fragilis": {
+                "hu": "Metronidazol",
+                "en": "Metronidazole",
+                "de": "Metronidazol"
+            },
+            "Enterococcus": {
+                "hu": "Ampicillin",
+                "en": "Ampicillin",
+                "de": "Ampicillin"
+            },
+            "P. aeruginosa": {
+                "hu": "Piperacillin-tazobaktám + Ciprofloxacin",
+                "en": "Piperacillin-tazobactam + Ciprofloxacin",
+                "de": "Piperacillin-Tazobactam + Ciprofloxacin"
+            }
         },
         "notes": {
             "hu": "Sebészeti vagy radiológiai drenázs kulcsfontosságú, antibiotikum önmagában nem hatékony",
@@ -968,15 +1836,43 @@ window.diseases_en = [
             "P. aeruginosa"
         ],
         "empiricalTherapy": {
-            "firstLine": "Ceftriaxone 2g IV 24h + Vancomycin 15-20mg/kg IV 8-12h",
-            "alternative": "Ciprofloxacin 400mg IV 12h + Rifampin 300mg PO 12h",
-            "duration": "6-12 hét"
+            "firstLine": {
+                "hu": "Ceftriaxone 2g IV 24h + Vancomycin 15-20mg/kg IV 8-12h",
+                "en": "Ceftriaxone 2g IV 24h + Vancomycin 15-20mg/kg IV 8-12h",
+                "de": "Ceftriaxon 2g i.v. 24h + Vancomycin 15-20mg/kg i.v. 8-12h"
+            },
+            "alternative": {
+                "hu": "Ciprofloxacin 400mg IV 12h + Rifampin 300mg PO 12h",
+                "en": "Ciprofloxacin 400mg IV 12h + Rifampin 300mg PO 12h",
+                "de": "Ciprofloxacin 400mg i.v. 12h + Rifampicin 300mg p.o. 12h"
+            },
+            "duration": {
+                "hu": "6-12 hét",
+                "en": "6-12 weeks",
+                "de": "6-12 Wochen"
+            }
         },
         "targetedTherapy": {
-            "S. aureus (MSSA)": "Cefazolin 2g IV 8h vagy Flucloxacillin 2g IV 4h, 6-12 hét",
-            "S. aureus (MRSA)": "Vancomycin, 6-12 hét",
-            "E. coli": "Ceftriaxone, 6-12 hét",
-            "P. aeruginosa": "Ciprofloxacin, 6-12 hét"
+            "S. aureus (MSSA)": {
+                "hu": "Cefazolin 2g IV 8h vagy Flucloxacillin 2g IV 4h, 6-12 hét",
+                "en": "Cefazolin 2g IV 8h or Flucloxacillin 2g IV 4h, 6-12 weeks",
+                "de": "Cefazolin 2g i.v. 8h oder Flucloxacillin 2g i.v. 4h, 6-12 Wochen"
+            },
+            "S. aureus (MRSA)": {
+                "hu": "Vancomycin, 6-12 hét",
+                "en": "Vancomycin, 6-12 weeks",
+                "de": "Vancomycin, 6-12 Wochen"
+            },
+            "E. coli": {
+                "hu": "Ceftriaxone, 6-12 hét",
+                "en": "Ceftriaxone, 6-12 weeks",
+                "de": "Ceftriaxon, 6-12 Wochen"
+            },
+            "P. aeruginosa": {
+                "hu": "Ciprofloxacin, 6-12 hét",
+                "en": "Ciprofloxacin, 6-12 weeks",
+                "de": "Ciprofloxacin, 6-12 Wochen"
+            }
         },
         "notes": {
             "hu": "Hosszú ideig tartó antibiotikum kezelés szükséges, sebészeti debridement mérlegelése",
@@ -998,15 +1894,43 @@ window.diseases_en = [
             "Salmonella (sarlósejtes anémia esetén)"
         ],
         "empiricalTherapy": {
-            "firstLine": "Vancomycin 15-20mg/kg IV 8-12h + Ceftriaxone 2g IV 24h",
-            "alternative": "Linezolid 600mg IV 12h + Ciprofloxacin 400mg IV 12h",
-            "duration": "4-6 hét"
+            "firstLine": {
+                "hu": "Vancomycin 15-20mg/kg IV 8-12h + Ceftriaxone 2g IV 24h",
+                "en": "Vancomycin 15-20mg/kg IV 8-12h + Ceftriaxone 2g IV 24h",
+                "de": "Vancomycin 15-20mg/kg i.v. 8-12h + Ceftriaxon 2g i.v. 24h"
+            },
+            "alternative": {
+                "hu": "Linezolid 600mg IV 12h + Ciprofloxacin 400mg IV 12h",
+                "en": "Linezolid 600mg IV 12h + Ciprofloxacin 400mg IV 12h",
+                "de": "Linezolid 600mg i.v. 12h + Ciprofloxacin 400mg i.v. 12h"
+            },
+            "duration": {
+                "hu": "4-6 hét",
+                "en": "4-6 weeks",
+                "de": "4-6 Wochen"
+            }
         },
         "targetedTherapy": {
-            "S. aureus (MSSA)": "Cefazolin 2g IV 8h vagy Flucloxacillin 2g IV 4h, 6-12 hét",
-            "S. aureus (MRSA)": "Vancomycin vagy Linezolid, 4-6 hét",
-            "P. aeruginosa": "Ciprofloxacin, 4-6 hét",
-            "Salmonella": "Ceftriaxone, 4-6 hét"
+            "S. aureus (MSSA)": {
+                "hu": "Cefazolin 2g IV 8h vagy Flucloxacillin 2g IV 4h, 6-12 hét",
+                "en": "Cefazolin 2g IV 8h or Flucloxacillin 2g IV 4h, 6-12 weeks",
+                "de": "Cefazolin 2g i.v. 8h oder Flucloxacillin 2g i.v. 4h, 6-12 Wochen"
+            },
+            "S. aureus (MRSA)": {
+                "hu": "Vancomycin vagy Linezolid, 4-6 hét",
+                "en": "Vancomycin or Linezolid, 4-6 weeks",
+                "de": "Vancomycin oder Linezolid, 4-6 Wochen"
+            },
+            "P. aeruginosa": {
+                "hu": "Ciprofloxacin, 4-6 hét",
+                "en": "Ciprofloxacin, 4-6 weeks",
+                "de": "Ciprofloxacin, 4-6 Wochen"
+            },
+            "Salmonella": {
+                "hu": "Ceftriaxone, 4-6 hét",
+                "en": "Ceftriaxone, 4-6 weeks",
+                "de": "Ceftriaxon, 4-6 Wochen"
+            }
         },
         "notes": {
             "hu": "Sebészeti debridement kulcsfontosságú, krónikus osteomyelitis gyakori, gyakran sebészeti beavatkozás szükséges",
@@ -1027,14 +1951,38 @@ window.diseases_en = [
             "Anaerob baktériumok"
         ],
         "empiricalTherapy": {
-            "firstLine": "Ceftriaxone 2g IV 12h + Metronidazole 500mg IV 8h",
-            "alternative": "Ceftazidime 2g IV 8h + Metronidazole 500mg IV 8h + Vancomycin 15-20mg/kg IV 8-12h",
-            "duration": "6-8 hét"
+            "firstLine": {
+                "hu": "Ceftriaxone 2g IV 12h + Metronidazol 500mg IV 8h",
+                "en": "Ceftriaxone 2g IV 12h + Metronidazole 500mg IV 8h",
+                "de": "Ceftriaxon 2g i.v. 12h + Metronidazol 500mg i.v. 8h"
+            },
+            "alternative": {
+                "hu": "Ceftazidime 2g IV 8h + Metronidazol 500mg IV 8h + Vancomycin 15-20mg/kg IV 8-12h",
+                "en": "Ceftazidime 2g IV 8h + Metronidazole 500mg IV 8h + Vancomycin 15-20mg/kg IV 8-12h",
+                "de": "Ceftazidim 2g i.v. 8h + Metronidazol 500mg i.v. 8h + Vancomycin 15-20mg/kg i.v. 8-12h"
+            },
+            "duration": {
+                "hu": "6-8 hét",
+                "en": "6-8 weeks",
+                "de": "6-8 Wochen"
+            }
         },
         "targetedTherapy": {
-            "Streptococcus": "Penicillin G 4 MU IV 4h, 6-8 hét",
-            "S. aureus": "Flucloxacillin/Vancomycin, 6-8 hét",
-            "Anaerob": "Metronidazole 500mg IV 8h, 6-8 hét"
+            "Streptococcus": {
+                "hu": "Penicillin G 4 MU IV 4h, 6-8 hét",
+                "en": "Penicillin G 4 MU IV 4h, 6-8 weeks",
+                "de": "Penicillin G 4 ME i.v. 4h, 6-8 Wochen"
+            },
+            "S. aureus": {
+                "hu": "Flucloxacillin/Vancomycin, 6-8 hét",
+                "en": "Flucloxacillin/Vancomycin, 6-8 weeks",
+                "de": "Flucloxacillin/Vancomycin, 6-8 Wochen"
+            },
+            "Anaerob": {
+                "hu": "Metronidazol 500mg IV 8h, 6-8 hét",
+                "en": "Metronidazole 500mg IV 8h, 6-8 weeks",
+                "de": "Metronidazol 500mg i.v. 8h, 6-8 Wochen"
+            }
         },
         "notes": {
             "hu": "MR-rel vagy CT-vel megerősített diagnózis, sebészeti drenázs vagy aspiráció",
@@ -1055,15 +2003,43 @@ window.diseases_en = [
             "Anaerob baktériumok"
         ],
         "empiricalTherapy": {
-            "firstLine": "Vancomycin 15-20mg/kg IV 8-12h + Ceftriaxone 2g IV 12h + Metronidazole 500mg IV 8h",
-            "alternative": "Linezolid 600mg IV 12h + Meropenem 2g IV 8h",
-            "duration": "4-6 hét"
+            "firstLine": {
+                "hu": "Vancomycin 15-20mg/kg IV 8-12h + Ceftriaxone 2g IV 12h + Metronidazol 500mg IV 8h",
+                "en": "Vancomycin 15-20mg/kg IV 8-12h + Ceftriaxone 2g IV 12h + Metronidazole 500mg IV 8h",
+                "de": "Vancomycin 15-20mg/kg i.v. 8-12h + Ceftriaxon 2g i.v. 12h + Metronidazol 500mg i.v. 8h"
+            },
+            "alternative": {
+                "hu": "Linezolid 600mg IV 12h + Meropenem 2g IV 8h",
+                "en": "Linezolid 600mg IV 12h + Meropenem 2g IV 8h",
+                "de": "Linezolid 600mg i.v. 12h + Meropenem 2g i.v. 8h"
+            },
+            "duration": {
+                "hu": "4-6 hét",
+                "en": "4-6 weeks",
+                "de": "4-6 Wochen"
+            }
         },
         "targetedTherapy": {
-            "Streptococcus": "Penicillin G 4 MU IV 4h, 4-6 hét",
-            "S. aureus": "Flucloxacillin/Vancomycin, 4-6 hét",
-            "Anaerob": "Metronidazole 500mg IV 8h, 4-6 hét",
-            "Polimikrobiális": "Vancomycin + Meropenem + Metronidazole"
+            "Streptococcus": {
+                "hu": "Penicillin G 4 MU IV 4h, 4-6 hét",
+                "en": "Penicillin G 4 MU IV 4h, 4-6 weeks",
+                "de": "Penicillin G 4 ME i.v. 4h, 4-6 Wochen"
+            },
+            "S. aureus": {
+                "hu": "Flucloxacillin/Vancomycin, 4-6 hét",
+                "en": "Flucloxacillin/Vancomycin, 4-6 weeks",
+                "de": "Flucloxacillin/Vancomycin, 4-6 Wochen"
+            },
+            "Anaerob": {
+                "hu": "Metronidazol 500mg IV 8h, 4-6 hét",
+                "en": "Metronidazole 500mg IV 8h, 4-6 weeks",
+                "de": "Metronidazol 500mg i.v. 8h, 4-6 Wochen"
+            },
+            "Polimikrobiális": {
+                "hu": "Vancomycin + Meropenem + Metronidazol",
+                "en": "Vancomycin + Meropenem + Metronidazole",
+                "de": "Vancomycin + Meropenem + Metronidazol"
+            }
         },
         "notes": {
             "hu": "Sürgős sebészeti drenázs szükséges, neurológiai szövődmények gyakoriak",
