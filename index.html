@@ -989,16 +989,16 @@ console.log("pathogens_hu:", window.pathogens_hu);
                         <div class="bg-green-50 p-4 rounded-lg">
                             <h4 class="font-semibold text-green-800 text-lg mb-2">${translations[lang]['empiricalTherapy'] || 'Empirical Therapy'}:</h4>
                             <div>
-                                <p><strong>${translations[lang]['firstLine'] || 'First Line'}:</strong> ${disease.empiricalTherapy.firstLine}</p>
-                                <p><strong>${translations[lang]['alternative'] || 'Alternative'}:</strong> ${disease.empiricalTherapy.alternative}</p>
-                                <p><strong>${translations[lang]['duration'] || 'Duration'}:</strong> ${disease.empiricalTherapy.duration}</p>
+                                <p><strong>${translations[lang]['firstLine'] || 'First Line'}:</strong> ${disease.empiricalTherapy.firstLine[lang]}</p>
+                                <p><strong>${translations[lang]['alternative'] || 'Alternative'}:</strong> ${disease.empiricalTherapy.alternative[lang]}</p>
+                                <p><strong>${translations[lang]['duration'] || 'Duration'}:</strong> ${disease.empiricalTherapy.duration[lang]}</p>
                             </div>
                         </div>
 
                         <div class="bg-blue-50 p-4 rounded-lg">
                             <h4 class="font-semibold text-blue-800 text-lg mb-2">${translations[lang]['targetedTherapy'] || 'Targeted Therapy'}:</h4>
                             <div class="space-y-1">
-                                ${Object.entries(disease.targetedTherapy).map(([key, value]) => `<p><strong class="italic">${key}:</strong> ${value}</p>`).join('')}
+                                ${Object.entries(disease.targetedTherapy).map(([key, value]) => `<p><strong class="italic">${key}:</strong> ${value[lang]}</p>`).join('')}
                             </div>
                         </div>
                         
@@ -1420,14 +1420,14 @@ console.log("pathogens_hu:", window.pathogens_hu);
 
                             <div class="section">
                                 <h4 class="section-title">${translations[lang]['empiricalTherapy']}</h4>
-                                <p><strong>${translations[lang]['firstLine']}:</strong> ${disease.empiricalTherapy.firstLine}</p>
-                                <p><strong>${translations[lang]['alternative']}:</strong> ${disease.empiricalTherapy.alternative}</p>
-                                <p><strong>${translations[lang]['duration']}:</strong> ${disease.empiricalTherapy.duration}</p>
+                                <p><strong>${translations[lang]['firstLine']}:</strong> ${disease.empiricalTherapy.firstLine[lang]}</p>
+                                <p><strong>${translations[lang]['alternative']}:</strong> ${disease.empiricalTherapy.alternative[lang]}</p>
+                                <p><strong>${translations[lang]['duration']}:</strong> ${disease.empiricalTherapy.duration[lang]}</p>
                             </div>
 
                             <div class="section">
                                 <h4 class="section-title">${translations[lang]['targetedTherapy']}</h4>
-                                ${Object.entries(disease.targetedTherapy).map(([key, value]) => `<p><strong>${key}:</strong> ${value}</p>`).join('')}
+                                ${Object.entries(disease.targetedTherapy).map(([key, value]) => `<p><strong>${key}:</strong> ${value[lang]}</p>`).join('')}
                             </div>
 
                             ${disease.notes && disease.notes[lang] ? `
