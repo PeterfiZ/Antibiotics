@@ -214,9 +214,9 @@ window.diseases_hu = [
                 "de": "Amoxicillin-Clavulansäure"
             },
             "Atípusos patogének": {
-                "hu": "Azithromycin vagy Levofloxacin",
-                "en": "Azithromycin or Levofloxacin",
-                "de": "Azithromycin oder Levofloxacin"
+                "hu": "Azithromycin vagy Doxycyclin",
+                "en": "Azithromycin or Doxycycline",
+                "de": "Azithromycin oder Doxycyclin"
             }
         },
         "notes": {
@@ -236,6 +236,8 @@ window.diseases_hu = [
             "S. pneumoniae",
             "H. influenzae",
             "Legionella",
+            "M. pneumoniae",
+            "C. pneumoniae",
             "S. aureus",
             "Enterobacteriaceae"
         ],
@@ -258,9 +260,9 @@ window.diseases_hu = [
         },
         "targetedTherapy": {
             "S. pneumoniae": {
-                "hu": "Ceftriaxone 2g IV 24h, 5 nap",
-                "en": "Ceftriaxone 2g IV 24h, 5 days",
-                "de": "Ceftriaxon 2g i.v. 24h, 5 Tage"
+                "hu": "Ceftriaxone 2g IV 24h, vagy ampicillin 2g IV 4h, 5 nap",
+                "en": "Ceftriaxone 2g IV 24h, or Ampicillin 2g IV 4h, 5 days",
+                "de": "Ceftriaxon 2g i.v. 24h, oder Ampicillin 2g i.v. 4h, 5 Tage"
             },
             "Legionella": {
                 "hu": "Azithromycin 500mg IV 24h, 5-10 nap",
@@ -271,6 +273,12 @@ window.diseases_hu = [
                 "hu": "Cefazolin 2g IV 8h, 7 nap",
                 "en": "Cefazolin 2g IV 8h, 7 days",
                 "de": "Cefazolin 2g i.v. 8h, 7 Tage"
+                },
+            "Mycoplasma pneumoniae": {
+                "hu": "Azithromycin 500mg IV 24h, 6 nap",
+                "en": "Azithromycin 500mg IV 24h, 6 days",
+                "de": "Azithromycin 500mg i.v. 24h, 6 Tage"
+            
             }
         },
         "notes": {
@@ -597,9 +605,9 @@ window.diseases_hu = [
                 "de": "Penicillin G 12-18 ME i.v./Tag, 4 Wochen oder Ceftriaxon 2g i.v. 24h, 4 Wochen"
             },
             "Viridans streptococci (MIC >0.125)": {
-                "hu": "Penicillin G + Gentamicin 3mg/kg IV 24h, 6 hét",
-                "en": "Penicillin G + Gentamicin 3mg/kg IV 24h, 6 weeks",
-                "de": "Penicillin G + Gentamicin 3mg/kg i.v. 24h, 6 Wochen"
+                "hu": "Penicillin G 24 MU IV 24h + Gentamicin 3mg/kg IV 24h, 6 hét",
+                "en": "Penicillin G 24 MU IV 24h + Gentamicin 3mg/kg IV 24h, 6 weeks",
+                "de": "Penicillin G 24 ME i.v. 24h + Gentamicin 3mg/kg i.v. 24h, 6 Wochen"
             },
             "Enterococcus faecalis": {
                 "hu": "Ampicillin 2g IV 4h + Gentamicin 3mg/kg IV 24h, 6 hét",
@@ -656,9 +664,9 @@ window.diseases_hu = [
                 "de": "Penicillin G 12-18 ME i.v./Tag, 4 Wochen"
             },
             "Enterococcus": {
-                "hu": "Ampicillin + Gentamicin, 6 hét",
-                "en": "Ampicillin + Gentamicin, 6 weeks",
-                "de": "Ampicillin + Gentamicin, 6 Wochen"
+                "hu": "Ampicillin + Gentamicin, 6 hét, vagy Ampicillin + Ceftriaxon, 6 hét (ha Gentamicin ellenjavallt)",
+                "en": "Ampicillin + Gentamicin, 6 weeks, or Ampicillin + Ceftriaxone, 6 weeks (if Gentamicin contraindicated)",
+                "de": "Ampicillin + Gentamicin, 6 Wochen, oder Ampicillin + Ceftriaxon, 6 Wochen (wenn Gentamicin kontraindiziert)"
             },
             "HACEK": {
                 "hu": "Ceftriaxone 2g IV 24h, 6 hét",
@@ -693,7 +701,7 @@ window.diseases_hu = [
             "CoNS",
             "S. aureus",
             "Enterococci",
-            "Gram-negatív bacilli"
+            "Gram-negatív bacillus"
         ],
         "empiricalTherapy": {
             "firstLine": {
@@ -728,15 +736,20 @@ window.diseases_hu = [
                 "en": "Vancomycin + Gentamicin (2 weeks) + Rifampin, 6 weeks",
                 "de": "Vancomycin + Gentamicin (2 Wochen) + Rifampicin, 6 Wochen"
             },
-            "Enterococcus": {
-                "hu": "Ampicillin + Gentamicin, 6 hét (rifampin nem ajánlott)",
-                "en": "Ampicillin + Gentamicin, 6 weeks (rifampin not recommended)",
-                "de": "Ampicillin + Gentamicin, 6 Wochen (Rifampicin nicht empfohlen)"
+            "Enterococcus faecalis": {
+                "hu": "Ampicillin + Gentamicin, 6 hét (rifampin nem ajánlott), ceftriaxon + ampicillin alternatívaként, 6 hét",
+                "en": "Ampicillin + Gentamicin, 6 weeks (rifampin not recommended), ceftriaxone + ampicillin as alternative, 6 weeks",
+                "de": "Ampicillin + Gentamicin, 6 Wochen (Rifampicin nicht empfohlen), Ceftriaxon + Ampicillin als Alternative, 6 Wochen"
             },
             "Gram-negatív": {
                 "hu": "Meropenem + Gentamicin, 6 hét",
                 "en": "Meropenem + Gentamicin, 6 weeks",
                 "de": "Meropenem + Gentamicin, 6 Wochen"
+            },
+            "Enterococcus faecium (VRE)": {
+                "hu": "Linezolid vagy Daptomycin + Gentamicin, 6 hét",
+                "en": "Linezolid or Daptomycin + Gentamicin, 6 weeks",
+                "de": "Linezolid oder Daptomycin + Gentamicin, 6 Wochen"
             }
         },
         "notes": {
@@ -782,9 +795,9 @@ window.diseases_hu = [
                 "de": "Penicillin G + Gentamicin (2 Wochen), 6 Wochen"
             },
             "Enterococcus": {
-                "hu": "Ampicillin + Gentamicin, 6 hét",
-                "en": "Ampicillin + Gentamicin, 6 weeks",
-                "de": "Ampicillin + Gentamicin, 6 Wochen"
+                "hu": "Ampicillin + Gentamicin, 6 hét, ceftriaxon + ampicillin alternatívaként, 6 hét",
+                "en": "Ampicillin + Gentamicin, 6 weeks, ceftriaxone + ampicillin as alternative, 6 weeks",
+                "de": "Ampicillin + Gentamicin, 6 Wochen, Ceftriaxon + Ampicillin als Alternative, 6 Wochen"
             },
             "S. aureus": {
                 "hu": "Flucloxacillin/Vancomycin + Gentamicin (2 hét) + Rifampin, 6 hét",
@@ -856,8 +869,8 @@ window.diseases_hu = [
             }
         },
         "notes": {
-            "hu": "Empirikusan a Fluorokinolonok kerülendők, nőknél egyszeri fosfomycin dózis hatékony",
-            "en": "Empirically, fluoroquinolones should be avoided, a single dose of fosfomycin is effective in women",
+            "hu": "Empirikusan a Fluorokinolonok kerülendők, nőknél egyszeri dózis fosfomycin hatékony",
+            "en": "Empirically, fluoroquinolones should be avoided; a single dose of fosfomycin is effective in women",
             "de": "Empirisch sollten Fluorchinolone vermieden werden, eine Einzeldosis Fosfomycin ist bei Frauen wirksam"
         }
     },
@@ -893,14 +906,14 @@ window.diseases_hu = [
         },
         "targetedTherapy": {
             "E. coli (érzékeny)": {
-                "hu": "Ceftriaxone 2g IV 24h, 7 nap",
-                "en": "Ceftriaxone 2g IV 24h, 7 days",
-                "de": "Ceftriaxon 2g i.v. 24h, 7 Tage"
+                "hu": "cefuroxim 500mg PO 12h, 7 nap",
+                "en": "Cefuroxime 500mg PO 12h, 7 days",
+                "de": "Cefuroxim 500mg p.o. 12h, 7 Tage"
             },
             "K. pneumoniae": {
-                "hu": "Imipenem-cilasztatin 500mg IV 8h, 7 nap",
-                "en": "Imipenem-cilastatin 500mg IV 8h, 7 days",
-                "de": "Imipenem-Cilastatin 500mg i.v. 8h, 7 Tage"
+                "hu": "ciprofloxacin vagy TMP-SMX, 7 nap",
+                "en": "ciprofloxacin or TMP-SMX, 7 days",
+                "de": "ciprofloxacin oder TMP-SMX, 7 Tage"
             },
             "P. mirabilis": {
                 "hu": "Ciprofloxacin vagy TMP-SMX, 7 nap",
@@ -957,9 +970,9 @@ window.diseases_hu = [
                 "de": "Ceftriaxon 2g i.v. 24h, 10-14 Tage"
             },
             "K. pneumoniae (ESBL)": {
-                "hu": "Meropenem 1g IV 8h, 10-14 nap",
-                "en": "Meropenem 1g IV 8h, 10-14 days",
-                "de": "Meropenem 1g i.v. 8h, 10-14 Tage"
+                "hu": "Meropenem 1g IV 8h, 10-14 nap vagy imipenem-cilasztatin 500mg IV 8h, 10-14 nap",
+                "en": "Meropenem 1g IV 8h, 10-14 days or imipenem-cilastatin 500mg IV 8h, 10-14 days",
+                "de": "Meropenem 1g i.v. 8h, 10-14 Tage oder Imipenem-Cilastatin 500mg i.v. 8h, 10-14 Tage"
             },
             "P. aeruginosa": {
                 "hu": "Piperacillin-tazobaktám + Ciprofloxacin, 14 nap",
@@ -1596,9 +1609,9 @@ window.diseases_hu = [
                 "de": "Ceftriaxon + Metronidazol"
             },
             "Enterococcus": {
-                "hu": "Ampicillin + Gentamicin",
-                "en": "Ampicillin + Gentamicin",
-                "de": "Ampicillin + Gentamicin"
+                "hu": "Ampicillin",
+                "en": "Ampicillin",
+                "de": "Ampicillin"
             },
             "B. fragilis": {
                 "hu": "Metronidazol",
@@ -1660,9 +1673,9 @@ window.diseases_hu = [
             }
         },
         "notes": {
-            "hu": "Appendectomia a definitív terápia, antibiotikum perioperatív profilaxis",
-            "en": "Appendectomy is the definitive therapy, antibiotics for perioperative prophylaxis",
-            "de": "Appendektomie ist die definitive Therapie, Antibiotika zur perioperativen Prophylaxe"
+            "hu": "Appendectomia a definitív terápia, az antibiotikum perioperatív profilaxisra szolgál",
+            "en": "Appendectomy is the definitive therapy, empirical antibiotics are used for perioperative prophylaxis",
+            "de": "Appendektomie ist die definitive Therapie, empirische Antibiotika zur perioperativen Prophylaxe"
         }
     },
     {
@@ -1709,7 +1722,7 @@ window.diseases_hu = [
         },
         "notes": {
             "hu": "A legtöbb esetben ambulanter kezelhető, folyékony étrend, abszcesszus esetén drainage szükséges",
-            "en": "Mostly treatable outpatient, liquid diet, drain if abscess present",
+            "en": "Mostly treatable as outpatient, liquid diet, drain if abscess is present",
             "de": "Meist ambulant behandelbar, Flüssignahrung, Drainage bei Abszess"
         }
     },
@@ -1779,9 +1792,9 @@ window.diseases_hu = [
         ],
         "empiricalTherapy": {
             "firstLine": {
-                "hu": "Piperacillin-tazobaktám 4.5g IV 6h vagy Meropenem 1g IV 8h",
-                "en": "Piperacillin-tazobactam 4.5g IV 6h or Meropenem 1g IV 8h",
-                "de": "Piperacillin-Tazobactam 4,5g i.v. 6h oder Meropenem 1g i.v. 8h"
+                "hu": "Piperacillin-tazobaktám 4.5g IV 6h (alacsony rizikó) vagy Meropenem 1g IV 8h (magas rizikó)",
+                "en": "Piperacillin-tazobactam 4.5g IV 6h (suspected low risk) or Meropenem 1g IV 8h (high risk)",
+                "de": "Piperacillin-Tazobactam 4,5g i.v. 6h (bei niedrigerem Risiko) oder Meropenem 1g i.v. 8h (bei höherem Risiko)"
             },
             "alternative": {
                 "hu": "Ceftriaxone 1g IV 24h + Metronidazol 500mg IV 8h",
@@ -1974,9 +1987,9 @@ window.diseases_hu = [
                 "de": "Penicillin G 4 ME i.v. 4h, 6-8 Wochen"
             },
             "S. aureus": {
-                "hu": "Flucloxacillin/Vancomycin, 6-8 hét",
-                "en": "Flucloxacillin/Vancomycin, 6-8 weeks",
-                "de": "Flucloxacillin/Vancomycin, 6-8 Wochen"
+                "hu": "Flucloxacillin (MSSA)/Vancomycin (MRSA), 6-8 hét",
+                "en": "Flucloxacillin (MSSA)/Vancomycin (MRSA), 6-8 weeks",
+                "de": "Flucloxacillin (MSSA)/Vancomycin (MRSA), 6-8 Wochen"
             },
             "Anaerob": {
                 "hu": "Metronidazol 500mg IV 8h, 6-8 hét",
