@@ -28,6 +28,16 @@
         .search-input:focus {
             transform: scale(1.02);
         }
+        .sortable {
+            cursor: pointer;
+            position: relative;
+        }
+        .sortable::after {
+            content: ' \2195'; /* up-down arrow */
+            opacity: 0.3;
+            position: absolute;
+            right: 10px;
+        }
     </style>
 </head>
 <body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen">
@@ -276,11 +286,11 @@
                     <table id="summary-table" class="w-full">
                         <thead class="bg-gray-50">
                             <tr>
-                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider" id="th-group">Csoport</th>
-                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider" id="th-effect">Hatás</th>
-                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider" id="th-mechanism">Hatásmechanizmus</th>
-                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider" id="th-spectrum">Spektrum</th>
-                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider" id="th-examples">Példák</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider sortable" id="th-group" data-sort="group">Csoport</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider sortable" id="th-effect" data-sort="effect">Hatás</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider sortable" id="th-mechanism" data-sort="mechanism">Hatásmechanizmus</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider sortable" id="th-spectrum" data-sort="spectrum">Spektrum</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider sortable" id="th-examples" data-sort="examples">Példák</th>
                             </tr>
                         </thead>
                         <tbody id="summary-table-body" class="bg-white divide-y divide-gray-200">
@@ -342,7 +352,10 @@
                 <div id="question-container" class="mb-6 min-h-[6rem] flex items-center"><p class="text-xl font-medium text-gray-800" id="question-text"></p></div>
                 <div id="answers-container" class="space-y-3"></div>
                 <div id="feedback-container" class="mt-4 text-center font-bold min-h-[1.5rem]"></div>
-                <div class="mt-8 flex justify-end"><button id="next-question-btn" onclick="nextQuestion()" class="hidden px-6 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors">Következő</button></div>
+                <div class="mt-8 flex justify-between">
+                    <button id="prev-question-btn" onclick="prevQuestion()" class="hidden px-6 py-2 text-white bg-gray-500 rounded-lg hover:bg-gray-600 transition-colors">Előző</button>
+                    <button id="next-question-btn" onclick="nextQuestion()" class="hidden px-6 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors ml-auto">Következő</button>
+                </div>
             </div>
 
             <!-- Results Screen -->
@@ -385,6 +398,10 @@ console.log("pathogens_hu:", window.pathogens_hu);
     let currentQuestions = [];
     let currentQuestionIndex = 0;
     let score = 0;
+    let userAnswers = [];
+
+    // Summary table sort state
+    let summarySortState = { column: 'group', direction: 'asc' };
 
         const translations = {
             hu: {
@@ -589,7 +606,9 @@ console.log("pathogens_hu:", window.pathogens_hu);
                 'score-text': 'is your score.',
                 'restart-quiz-btn': 'New Quiz',
                 'correct-answer': 'Correct!',
-                'wrong-answer': 'Wrong! The correct answer was:'
+                'wrong-answer': 'Wrong! The correct answer was:',
+                'prev-btn': 'Previous',
+                'finish-quiz-btn': 'Finish Quiz'
             },
             de: {
                 'select-module': 'Modul auswählen',
@@ -691,7 +710,9 @@ console.log("pathogens_hu:", window.pathogens_hu);
                 'score-text': 'ist Ihre Punktzahl.',
                 'restart-quiz-btn': 'Neues Quiz',
                 'correct-answer': 'Richtig!',
-                'wrong-answer': 'Falsch! Die richtige Antwort war:'
+                'wrong-answer': 'Falsch! Die richtige Antwort war:',
+                'prev-btn': 'Zurück',
+                'finish-quiz-btn': 'Quiz beenden'
             }
         };
 
@@ -730,6 +751,8 @@ console.log("pathogens_hu:", window.pathogens_hu);
             document.getElementById('back-btn-3').textContent = translations[lang]['back-btn'];
             document.getElementById('back-btn-4').textContent = translations[lang]['back-btn'];
             document.getElementById('back-btn-5').textContent = translations[lang]['back-btn'];
+            document.getElementById('prev-question-btn').textContent = translations[lang]['prev-btn'];
+            document.getElementById('next-question-btn').textContent = translations[lang]['next-btn'];
             
             refreshCurrentModule();
         }
@@ -1133,6 +1156,14 @@ console.log("pathogens_hu:", window.pathogens_hu);
             }
         }
 
+        function sortSummaryTable(column) {
+            const direction = summarySortState.column === column && summarySortState.direction === 'asc' ? 'desc' : 'asc';
+            summarySortState = { column, direction };
+            
+            // Re-generate the table which will now be sorted
+            generateSummaryTable();
+        }
+
         function generateSummaryTable() {
             const tableBody = document.getElementById('summary-table-body');
             
@@ -1150,8 +1181,32 @@ console.log("pathogens_hu:", window.pathogens_hu);
             }
             
             tableBody.innerHTML = '';
+
+            let sortedKeys = Object.keys(groupedAntibiotics);
+
+            sortedKeys.sort((a, b) => {
+                const itemA = groupedAntibiotics[a][0];
+                const itemB = groupedAntibiotics[b][0];
+                let valA, valB;
+
+                switch (summarySortState.column) {
+                    case 'group':
+                        valA = itemA.group[currentLanguage]; valB = itemB.group[currentLanguage]; break;
+                    case 'effect':
+                        valA = itemA.effect[currentLanguage]; valB = itemB.effect[currentLanguage]; break;
+                    case 'mechanism':
+                        valA = itemA.mechanism[currentLanguage]; valB = itemB.mechanism[currentLanguage]; break;
+                    case 'spectrum':
+                        valA = itemA.spectrum.gramPos + itemA.spectrum.gramNeg + itemA.spectrum.anaerob + itemA.spectrum.atypical + itemA.spectrum.pseudomonas;
+                        valB = itemB.spectrum.gramPos + itemB.spectrum.gramNeg + itemB.spectrum.anaerob + itemB.spectrum.atypical + itemB.spectrum.pseudomonas;
+                        break;
+                    case 'examples':
+                        valA = groupedAntibiotics[a].length; valB = groupedAntibiotics[b].length; break;
+                }
+                return (valA < valB ? -1 : valA > valB ? 1 : 0) * (summarySortState.direction === 'asc' ? 1 : -1);
+            });
             
-            Object.keys(groupedAntibiotics).sort().forEach(groupKey => {
+            sortedKeys.forEach(groupKey => {
                 const antibioticsInGroup = groupedAntibiotics[groupKey];
                 const firstAntibiotic = antibioticsInGroup[0];
                 if (!firstAntibiotic) return;
@@ -1189,6 +1244,13 @@ console.log("pathogens_hu:", window.pathogens_hu);
                 
                 tableBody.appendChild(row);
             });
+
+            // Add event listeners to headers
+            document.querySelectorAll('#summary-table th.sortable').forEach(th => {
+                th.onclick = () => sortSummaryTable(th.dataset.sort);
+                th.style.cursor = 'pointer';
+            });
+
         }
 
         function exportToPDF(type = 'summary') {
@@ -1565,6 +1627,7 @@ console.log("pathogens_hu:", window.pathogens_hu);
             const count = parseInt(document.getElementById('quiz-questions').value);
             const difficulty = document.getElementById('quiz-difficulty').value;
 
+            userAnswers = new Array(count).fill(null);
             currentQuestions = generateQuestions(topic, count, difficulty);
             currentQuestionIndex = 0;
             score = 0;
@@ -1583,52 +1646,82 @@ console.log("pathogens_hu:", window.pathogens_hu);
         }
 
         function displayQuestion() {
+            const prevBtn = document.getElementById('prev-question-btn');
+            const nextBtn = document.getElementById('next-question-btn');
+            const feedbackContainer = document.getElementById('feedback-container');
+            const answersContainer = document.getElementById('answers-container');
+
+            // Reset view
+            feedbackContainer.innerHTML = '';
+            answersContainer.innerHTML = '';
+
+            // Show/hide navigation buttons
+            prevBtn.classList.toggle('hidden', currentQuestionIndex === 0);
+            nextBtn.classList.toggle('hidden', currentQuestionIndex === currentQuestions.length - 1);
+            
+            if (currentQuestionIndex === currentQuestions.length - 1) {
+                nextBtn.textContent = translations[currentLanguage]['finish-quiz-btn'];
+            } else {
+                nextBtn.textContent = translations[currentLanguage]['next-btn'];
+            }
+
             const question = currentQuestions[currentQuestionIndex];
             document.getElementById('question-text').innerHTML = question.question;
-            
-            const answersContainer = document.getElementById('answers-container');
-            answersContainer.innerHTML = '';
-            question.answers.forEach(answer => {
+
+            question.answers.forEach((answer, index) => {
                 const button = document.createElement('button');
                 button.innerHTML = answer.text;
                 button.className = 'block w-full text-left p-4 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors';
-                button.onclick = () => checkAnswer(button, answer.correct);
+                button.dataset.index = index;
+                button.onclick = () => checkAnswer(button, answer.correct, index);
                 answersContainer.appendChild(button);
             });
 
-            document.getElementById('feedback-container').innerHTML = '';
-            const nextBtn = document.getElementById('next-question-btn');
-            nextBtn.classList.add('hidden');
-            nextBtn.textContent = translations[currentLanguage]['next-btn'];
-            
             document.getElementById('quiz-progress').textContent = `${translations[currentLanguage]['question']} ${currentQuestionIndex + 1} ${translations[currentLanguage]['of']} ${currentQuestions.length}`;
             document.getElementById('quiz-score').textContent = `${translations[currentLanguage]['score']}: ${score}`;
+
+            // If question was already answered, show the result
+            if (userAnswers[currentQuestionIndex] !== null) {
+                const userAnswer = userAnswers[currentQuestionIndex];
+                const buttons = answersContainer.querySelectorAll('button');
+                checkAnswer(buttons[userAnswer.selectedIndex], userAnswer.isCorrect, userAnswer.selectedIndex, true);
+            }
         }
 
-        function checkAnswer(button, isCorrect) {
+        function checkAnswer(button, isCorrect, selectedIndex, isRedraw = false) {
+            // Only score and store if it's the first time answering
+            if (userAnswers[currentQuestionIndex] === null) {
+                userAnswers[currentQuestionIndex] = { selectedIndex, isCorrect };
+                if (isCorrect) {
+                    score++;
+                }
+            }
+
             Array.from(document.getElementById('answers-container').children).forEach(btn => {
                 btn.disabled = true;
                 const correspondingAnswer = currentQuestions[currentQuestionIndex].answers.find(a => a.text === btn.innerHTML);
                 if (correspondingAnswer.correct) {
                     btn.className = 'block w-full text-left p-4 bg-green-200 text-green-800 rounded-lg';
                 }
+                // Keep the selected wrong answer red
+                if (parseInt(btn.dataset.index) === selectedIndex && !isCorrect) {
+                     btn.className = 'block w-full text-left p-4 bg-red-200 text-red-800 rounded-lg';
+                }
             });
 
             const feedbackContainer = document.getElementById('feedback-container');
             if (isCorrect) {
-                score++;
-                button.className = 'block w-full text-left p-4 bg-green-200 text-green-800 rounded-lg';
                 feedbackContainer.textContent = translations[currentLanguage]['correct-answer'];
                 feedbackContainer.className = 'mt-4 text-center font-bold text-green-600';
             } else {
-                button.className = 'block w-full text-left p-4 bg-red-200 text-red-800 rounded-lg';
                 const correctAnswer = currentQuestions[currentQuestionIndex].answers.find(a => a.correct).text;
                 feedbackContainer.innerHTML = `${translations[currentLanguage]['wrong-answer']} <br><i>${correctAnswer}</i>`;
                 feedbackContainer.className = 'mt-4 text-center font-bold text-red-600';
             }
 
-            document.getElementById('quiz-score').textContent = `${translations[currentLanguage]['score']}: ${score}`;
-            document.getElementById('next-question-btn').classList.remove('hidden');
+            if (!isRedraw) {
+                document.getElementById('quiz-score').textContent = `${translations[currentLanguage]['score']}: ${score}`;
+            }
         }
 
         function nextQuestion() {
@@ -1637,6 +1730,13 @@ console.log("pathogens_hu:", window.pathogens_hu);
                 displayQuestion();
             } else {
                 showResults();
+            }
+        }
+
+        function prevQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                displayQuestion();
             }
         }
 

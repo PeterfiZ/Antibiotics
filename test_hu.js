@@ -198,6 +198,18 @@ window.test_hu = [
         "id": 48, "topic": "microbiological", "difficulty": "hard", "question": "Melyik antibiotikum hatástalan a *Mycoplasma pneumoniae* ellen a sejtfal hiánya miatt?",
         "answers": [ { "text": "Penicillin G", "correct": true }, { "text": "Doxycycline", "correct": false }, { "text": "Azithromycin", "correct": false }, { "text": "Levofloxacin", "correct": false } ]
     }
+    {
+        "id": 49, "topic": "pharmacological", "difficulty": "hard", "question": "Melyik penicillin származék hatékony Pseudomonas aeruginosa ellen?",
+        "answers": [ { "text": "Ticarcillin-clavulanate", "correct": true }, { "text": "Amoxicillin", "correct": false }, { "text": "Oxacillin", "correct": false }, { "text": "Penicillin V", "correct": false } ]
+    },
+    {
+        "id": 50, "topic": "pharmacological", "difficulty": "hard", "question": "Melyik karbapenemnek nincs számottevő hatása Pseudomonas aeruginosa ellen?",
+        "answers": [ { "text": "Ertapenem", "correct": true }, { "text": "Meropenem", "correct": false }, { "text": "Imipenem", "correct": false }, { "text": "Doripenem", "correct": false } ]
+    },
+    {
+        "id": 51, "topic": "pharmacological", "difficulty": "hard", "question": "Melyik fluorokinolonnak van a legkifejezettebb anaerob hatása, de nincs antipseudomonas aktivitása?",
+        "answers": [ { "text": "Moxifloxacin", "correct": true }, { "text": "Ciprofloxacin", "correct": false }, { "text": "Levofloxacin", "correct": false }, { "text": "Ofloxacin", "correct": false } ]
+    }
 ];
 
 // ----- AUTOMATICALLY GENERATED QUESTIONS START -----

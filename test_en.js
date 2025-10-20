@@ -198,3 +198,224 @@ window.test_en = [
         "answers": [ { "text": "Penicillin G", "correct": true }, { "text": "Doxycycline", "correct": false }, { "text": "Azithromycin", "correct": false }, { "text": "Levofloxacin", "correct": false } ]
     }
 ];
+
+// ----- NEWLY ADDED QUESTIONS START (PREVIOUS BATCH) -----
+window.test_en.push(
+    // Pharmacological - Easy (New)
+    {
+        "id": 52, "topic": "pharmacological", "difficulty": "easy", "question": "Which group does Azithromycin belong to?",
+        "answers": [ { "text": "Macrolide", "correct": true }, { "text": "Aminoglycoside", "correct": false }, { "text": "Quinolone", "correct": false }, { "text": "Glycopeptide", "correct": false } ]
+    },
+    {
+        "id": 53, "topic": "pharmacological", "difficulty": "easy", "question": "What is the mechanism of action of Vancomycin?",
+        "answers": [ { "text": "Cell wall synthesis inhibitor (D-Ala-D-Ala binding)", "correct": true }, { "text": "Protein synthesis inhibitor (30S ribosome)", "correct": false }, { "text": "DNA gyrase inhibitor", "correct": false }, { "text": "Cell membrane depolarization", "correct": false } ]
+    },
+    {
+        "id": 54, "topic": "pharmacological", "difficulty": "easy", "question": "Is Penicillin G bactericidal or bacteriostatic?",
+        "answers": [ { "text": "Bactericidal", "correct": true }, { "text": "Bacteriostatic", "correct": false } ]
+    },
+    {
+        "id": 55, "topic": "pharmacological", "difficulty": "easy", "question": "Which antibiotic is primarily used orally to treat *C. difficile* infection?",
+        "answers": [ { "text": "Vancomycin", "correct": true }, { "text": "Gentamicin", "correct": false }, { "text": "Ceftriaxone", "correct": false }, { "text": "Meropenem", "correct": false } ]
+    },
+    {
+        "id": 56, "topic": "pharmacological", "difficulty": "easy", "question": "Which antibiotic is known for its effectiveness against atypical pathogens like *Mycoplasma*?",
+        "answers": [ { "text": "Doxycycline", "correct": true }, { "text": "Penicillin G", "correct": false }, { "text": "Meropenem", "correct": false }, { "text": "Vancomycin", "correct": false } ]
+    },
+    {
+        "id": 57, "topic": "pharmacological", "difficulty": "easy", "question": "Which group does Linezolid belong to?",
+        "answers": [ { "text": "Oxazolidinone", "correct": true }, { "text": "Lipopeptide", "correct": false }, { "text": "Streptogramin", "correct": false }, { "text": "Carbapenem", "correct": false } ]
+    },
+    {
+        "id": 58, "topic": "pharmacological", "difficulty": "easy", "question": "Is Clindamycin bactericidal or bacteriostatic?",
+        "answers": [ { "text": "Bacteriostatic", "correct": true }, { "text": "Bactericidal", "correct": false } ]
+    },
+    {
+        "id": 59, "topic": "pharmacological", "difficulty": "easy", "question": "Which antibiotic is primarily used to treat anaerobic infections?",
+        "answers": [ { "text": "Metronidazole", "correct": true }, { "text": "Azithromycin", "correct": false }, { "text": "Ciprofloxacin", "correct": false }, { "text": "Gentamicin", "correct": false } ]
+    },
+    {
+        "id": 60, "topic": "pharmacological", "difficulty": "easy", "question": "Which antibiotic inhibits folate synthesis?",
+        "answers": [ { "text": "TMP-SMX", "correct": true }, { "text": "Daptomycin", "correct": false }, { "text": "Clindamycin", "correct": false }, { "text": "Cefepime", "correct": false } ]
+    },
+    {
+        "id": 61, "topic": "pharmacological", "difficulty": "easy", "question": "Which drug inhibits cell wall synthesis by inhibiting the MurA enzyme?",
+        "answers": [ { "text": "Fosfomycin", "correct": true }, { "text": "Penicillin G", "correct": false }, { "text": "Vancomycin", "correct": false }, { "text": "Bacitracin", "correct": false } ]
+    },
+    // Pharmacological - Hard (New)
+    {
+        "id": 62, "topic": "pharmacological", "difficulty": "hard", "question": "Which antibiotic can cause tendon rupture, especially in the elderly?",
+        "answers": [ { "text": "Levofloxacin", "correct": true }, { "text": "Linezolid", "correct": false }, { "text": "Doxycycline", "correct": false }, { "text": "Clindamycin", "correct": false } ]
+    },
+    {
+        "id": 63, "topic": "pharmacological", "difficulty": "hard", "question": "Which carbapenem lacks significant activity against *Pseudomonas aeruginosa*?",
+        "answers": [ { "text": "Ertapenem", "correct": true }, { "text": "Meropenem", "correct": false }, { "text": "Imipenem", "correct": false }, { "text": "Doripenem", "correct": false } ]
+    },
+    {
+        "id": 64, "topic": "pharmacological", "difficulty": "hard", "question": "Which antibiotic is a potent inducer of CYP450 enzymes, leading to many drug interactions?",
+        "answers": [ { "text": "Rifampin", "correct": true }, { "text": "Azithromycin", "correct": false }, { "text": "Metronidazole", "correct": false }, { "text": "Linezolid", "correct": false } ]
+    },
+    {
+        "id": 65, "topic": "pharmacological", "difficulty": "hard", "question": "Which drug can cause dose-dependent bone marrow suppression and aplastic anemia?",
+        "answers": [ { "text": "Chloramphenicol", "correct": true }, { "text": "TMP-SMX", "correct": false }, { "text": "Linezolid", "correct": false }, { "text": "Doxycycline", "correct": false } ]
+    },
+    {
+        "id": 66, "topic": "pharmacological", "difficulty": "hard", "question": "What is the mechanism of action of Daptomycin?",
+        "answers": [ { "text": "Cell membrane depolarization", "correct": true }, { "text": "Cell wall synthesis inhibitor (D-Ala-D-Ala binding)", "correct": false }, { "text": "Cell wall synthesis inhibitor (PBP binding)", "correct": false }, { "text": "Protein synthesis inhibitor (50S ribosome)", "correct": false } ]
+    },
+    {
+        "id": 67, "topic": "pharmacological", "difficulty": "hard", "question": "Which fluoroquinolone has the most pronounced anaerobic activity but lacks antipseudomonal activity?",
+        "answers": [ { "text": "Moxifloxacin", "correct": true }, { "text": "Ciprofloxacin", "correct": false }, { "text": "Levofloxacin", "correct": false }, { "text": "Ofloxacin", "correct": false } ]
+    },
+    {
+        "id": 68, "topic": "pharmacological", "difficulty": "hard", "question": "Which drug can cause Gray baby syndrome in newborns?",
+        "answers": [ { "text": "Chloramphenicol", "correct": true }, { "text": "Gentamicin", "correct": false }, { "text": "Tetracycline", "correct": false }, { "text": "Erythromycin", "correct": false } ]
+    },
+    {
+        "id": 69, "topic": "pharmacological", "difficulty": "hard", "question": "Which antibiotic should be used in combination to avoid rapid resistance development, especially in *Staphylococcus* infections?",
+        "answers": [ { "text": "Rifampin", "correct": true }, { "text": "Vancomycin", "correct": false }, { "text": "Amoxicillin", "correct": false }, { "text": "Doxycycline", "correct": false } ]
+    },
+    {
+        "id": 70, "topic": "pharmacological", "difficulty": "hard", "question": "Which antibiotic can cause CPK elevation and myopathy?",
+        "answers": [ { "text": "Daptomycin", "correct": true }, { "text": "Linezolid", "correct": false }, { "text": "Ceftaroline", "correct": false }, { "text": "Tigecycline", "correct": false } ]
+    },
+    {
+        "id": 71, "topic": "pharmacological", "difficulty": "hard", "question": "Which drug inhibits protein synthesis by inhibiting the isoleucyl-tRNA synthetase enzyme?",
+        "answers": [ { "text": "Mupirocin", "correct": true }, { "text": "Linezolid", "correct": false }, { "text": "Clindamycin", "correct": false }, { "text": "Erythromycin", "correct": false } ]
+    }
+);
+// ----- NEWLY ADDED QUESTIONS START (CURRENT BATCH) -----
+window.test_en.push(
+    // Clinical - Easy (New)
+    { "id": 72, "topic": "clinical", "difficulty": "easy", "question": "What is the most common pathogen of community-acquired pneumonia (CAP)?", "answers": [ { "text": "Streptococcus pneumoniae", "correct": true }, { "text": "Pseudomonas aeruginosa", "correct": false }, { "text": "Staphylococcus aureus", "correct": false }, { "text": "Escherichia coli", "correct": false } ] },
+    { "id": 73, "topic": "clinical", "difficulty": "easy", "question": "Which antibiotic is commonly used to treat the early stage of Lyme disease?", "answers": [ { "text": "Doxycycline", "correct": true }, { "text": "Vancomycin", "correct": false }, { "text": "Metronidazole", "correct": false }, { "text": "Gentamicin", "correct": false } ] },
+    { "id": 74, "topic": "clinical", "difficulty": "easy", "question": "What is the most common bacterial cause of pharyngitis (sore throat)?", "answers": [ { "text": "Streptococcus pyogenes", "correct": true }, { "text": "Staphylococcus aureus", "correct": false }, { "text": "Haemophilus influenzae", "correct": false }, { "text": "Moraxella catarrhalis", "correct": false } ] },
+    { "id": 75, "topic": "clinical", "difficulty": "easy", "question": "What is the first-line treatment for uncomplicated cystitis in women?", "answers": [ { "text": "Nitrofurantoin", "correct": true }, { "text": "Ciprofloxacin", "correct": false }, { "text": "Vancomycin", "correct": false }, { "text": "Amoxicillin-clavulanate", "correct": false } ] },
+    { "id": 76, "topic": "clinical", "difficulty": "easy", "question": "What is the most common cause of prosthetic valve endocarditis within the first year after surgery?", "answers": [ { "text": "Coagulase-negative staphylococci", "correct": true }, { "text": "Viridans streptococci", "correct": false }, { "text": "HACEK group", "correct": false }, { "text": "Enterococci", "correct": false } ] },
+    { "id": 77, "topic": "clinical", "difficulty": "easy", "question": "What is the most common cause of otitis media in children?", "answers": [ { "text": "Streptococcus pneumoniae", "correct": true }, { "text": "Pseudomonas aeruginosa", "correct": false }, { "text": "Staphylococcus aureus", "correct": false }, { "text": "Moraxella catarrhalis", "correct": false } ] },
+    { "id": 78, "topic": "clinical", "difficulty": "easy", "question": "What is the most common cause of sexually transmitted urethritis?", "answers": [ { "text": "Neisseria gonorrhoeae", "correct": true }, { "text": "Treponema pallidum", "correct": false }, { "text": "Escherichia coli", "correct": false }, { "text": "Staphylococcus saprophyticus", "correct": false } ] },
+    { "id": 79, "topic": "clinical", "difficulty": "easy", "question": "What is a common cause of food poisoning with diarrhea?", "answers": [ { "text": "Campylobacter jejuni", "correct": true }, { "text": "Clostridium botulinum", "correct": false }, { "text": "Listeria monocytogenes", "correct": false }, { "text": "Vibrio cholerae", "correct": false } ] },
+    { "id": 80, "topic": "clinical", "difficulty": "easy", "question": "What is the most common pathogen in wound infections after a dog or cat bite?", "answers": [ { "text": "Pasteurella multocida", "correct": true }, { "text": "Bartonella henselae", "correct": false }, { "text": "Staphylococcus aureus", "correct": false }, { "text": "Streptococcus pyogenes", "correct": false } ] },
+    { "id": 81, "topic": "clinical", "difficulty": "easy", "question": "What is the most common cause of sepsis in newborns?", "answers": [ { "text": "Group B Streptococcus (GBS)", "correct": true }, { "text": "Listeria monocytogenes", "correct": false }, { "text": "Staphylococcus aureus", "correct": false }, { "text": "Haemophilus influenzae", "correct": false } ] },
+    // Clinical - Hard (New)
+    { "id": 82, "topic": "clinical", "difficulty": "hard", "question": "What is the recommended empirical therapy for neutropenic fever in low-risk patients?", "answers": [ { "text": "Ciprofloxacin + Amoxicillin-clavulanate (PO)", "correct": true }, { "text": "Meropenem (IV)", "correct": false }, { "text": "Vancomycin + Ceftazidime (IV)", "correct": false }, { "text": "Ciprofloxacin only (PO)", "correct": false } ] },
+    { "id": 83, "topic": "clinical", "difficulty": "hard", "question": "Which drug combination is used to treat chronic Q fever (endocarditis)?", "answers": [ { "text": "Doxycycline + Hydroxychloroquine", "correct": true }, { "text": "Ceftriaxone + Azithromycin", "correct": false }, { "text": "Rifampin + Isoniazid", "correct": false }, { "text": "Vancomycin + Gentamicin", "correct": false } ] },
+    { "id": 84, "topic": "clinical", "difficulty": "hard", "question": "What is the primary treatment for fulminant *C. difficile* colitis (with hypotension/shock, ileus)?", "answers": [ { "text": "Vancomycin (PO) + Metronidazole (IV)", "correct": true }, { "text": "Fidaxomicin only (PO)", "correct": false }, { "text": "Metronidazole only (IV)", "correct": false }, { "text": "Meropenem (IV)", "correct": false } ] },
+    { "id": 85, "topic": "clinical", "difficulty": "hard", "question": "What is the recommended therapy for pneumonia caused by *Stenotrophomonas maltophilia*?", "answers": [ { "text": "TMP-SMX", "correct": true }, { "text": "Meropenem", "correct": false }, { "text": "Ciprofloxacin", "correct": false }, { "text": "Ceftazidime", "correct": false } ] },
+    { "id": 86, "topic": "clinical", "difficulty": "hard", "question": "What is the recommended therapy for a cystic fibrosis pulmonary exacerbation caused by *Burkholderia cepacia* complex?", "answers": [ { "text": "Meropenem + Tobramycin", "correct": true }, { "text": "Ceftriaxone", "correct": false }, { "text": "Azithromycin", "correct": false }, { "text": "Vancomycin", "correct": false } ] },
+    { "id": 87, "topic": "clinical", "difficulty": "hard", "question": "What is the recommended therapy for a brain abscess caused by *Nocardia*?", "answers": [ { "text": "TMP-SMX + Meropenem", "correct": true }, { "text": "Penicillin G", "correct": false }, { "text": "Clindamycin", "correct": false }, { "text": "Doxycycline", "correct": false } ] },
+    { "id": 88, "topic": "clinical", "difficulty": "hard", "question": "What is the recommended therapy for wound infection and sepsis caused by *Vibrio vulnificus*?", "answers": [ { "text": "Doxycycline + Ceftazidime", "correct": true }, { "text": "Amoxicillin", "correct": false }, { "text": "Clindamycin", "correct": false }, { "text": "Vancomycin", "correct": false } ] },
+    { "id": 89, "topic": "clinical", "difficulty": "hard", "question": "What is the recommended therapy for an infection caused by KPC (*Klebsiella pneumoniae* carbapenemase)-producing bacteria?", "answers": [ { "text": "Ceftazidime-avibactam", "correct": true }, { "text": "Ertapenem", "correct": false }, { "text": "Piperacillin-tazobactam", "correct": false }, { "text": "Ciprofloxacin", "correct": false } ] },
+    { "id": 90, "topic": "clinical", "difficulty": "hard", "question": "What is the recommended therapy for neurosyphilis?", "answers": [ { "text": "Penicillin G (IV)", "correct": true }, { "text": "Doxycycline (PO)", "correct": false }, { "text": "Azithromycin (PO)", "correct": false }, { "text": "Ceftriaxone (IM)", "correct": false } ] },
+    { "id": 91, "topic": "clinical", "difficulty": "hard", "question": "Which antibiotic should be avoided in EHEC (*Enterohemorrhagic E. coli*) infection due to the risk of HUS (hemolytic uremic syndrome)?", "answers": [ { "text": "Fluoroquinolones", "correct": true }, { "text": "Metronidazole", "correct": false }, { "text": "Vancomycin", "correct": false }, { "text": "Azithromycin", "correct": false } ] },
+    // Microbiological - Easy (New)
+    { "id": 92, "topic": "microbiological", "difficulty": "easy", "question": "Which of these bacteria is an obligate anaerobe?", "answers": [ { "text": "Clostridium perfringens", "correct": true }, { "text": "Escherichia coli", "correct": false }, { "text": "Staphylococcus aureus", "correct": false }, { "text": "Pseudomonas aeruginosa", "correct": false } ] },
+    { "id": 93, "topic": "microbiological", "difficulty": "easy", "question": "Which of these bacteria is a Gram-positive rod?", "answers": [ { "text": "Listeria monocytogenes", "correct": true }, { "text": "Neisseria meningitidis", "correct": false }, { "text": "Haemophilus influenzae", "correct": false }, { "text": "Escherichia coli", "correct": false } ] },
+    { "id": 94, "topic": "microbiological", "difficulty": "easy", "question": "Which bacterium is known for its ability to form biofilms, especially on medical devices?", "answers": [ { "text": "Staphylococcus epidermidis", "correct": true }, { "text": "Streptococcus pyogenes", "correct": false }, { "text": "Mycoplasma pneumoniae", "correct": false }, { "text": "Chlamydia trachomatis", "correct": false } ] },
+    { "id": 95, "topic": "microbiological", "difficulty": "easy", "question": "Which pathogen is an obligate intracellular parasite?", "answers": [ { "text": "Chlamydia trachomatis", "correct": true }, { "text": "Staphylococcus aureus", "correct": false }, { "text": "Escherichia coli", "correct": false }, { "text": "Pseudomonas aeruginosa", "correct": false } ] },
+    { "id": 96, "topic": "microbiological", "difficulty": "easy", "question": "Which bacterium commonly produces beta-lactamase, making it resistant to penicillin?", "answers": [ { "text": "Staphylococcus aureus", "correct": true }, { "text": "Streptococcus pyogenes", "correct": false }, { "text": "Treponema pallidum", "correct": false }, { "text": "Mycoplasma pneumoniae", "correct": false } ] },
+    { "id": 97, "topic": "microbiological", "difficulty": "easy", "question": "Which bacterium is a Gram-negative diplococcus?", "answers": [ { "text": "Neisseria gonorrhoeae", "correct": true }, { "text": "Streptococcus pneumoniae", "correct": false }, { "text": "Staphylococcus aureus", "correct": false }, { "text": "Listeria monocytogenes", "correct": false } ] },
+    { "id": 98, "topic": "microbiological", "difficulty": "easy", "question": "Which of these bacteria is spore-forming?", "answers": [ { "text": "Bacillus anthracis", "correct": true }, { "text": "Escherichia coli", "correct": false }, { "text": "Staphylococcus aureus", "correct": false }, { "text": "Streptococcus pneumoniae", "correct": false } ] },
+    { "id": 99, "topic": "microbiological", "difficulty": "easy", "question": "Which bacterium is a lactose-fermenting Gram-negative rod?", "answers": [ { "text": "Escherichia coli", "correct": true }, { "text": "Pseudomonas aeruginosa", "correct": false }, { "text": "Salmonella enterica", "correct": false }, { "text": "Shigella dysenteriae", "correct": false } ] },
+    { "id": 100, "topic": "microbiological", "difficulty": "easy", "question": "Which fungus is the common cause of oral thrush?", "answers": [ { "text": "Candida albicans", "correct": true }, { "text": "Aspergillus fumigatus", "correct": false }, { "text": "Cryptococcus neoformans", "correct": false }, { "text": "Pneumocystis jirovecii", "correct": false } ] },
+    { "id": 101, "topic": "microbiological", "difficulty": "easy", "question": "Which bacterium is the causative agent of Lyme disease?", "answers": [ { "text": "Borrelia burgdorferi", "correct": true }, { "text": "Rickettsia rickettsii", "correct": false }, { "text": "Treponema pallidum", "correct": false }, { "text": "Bartonella henselae", "correct": false } ] },
+    // Microbiological - Hard (New)
+    { "id": 102, "topic": "microbiological", "difficulty": "hard", "question": "Which resistance mechanism is responsible for the MRSA (methicillin-resistant *S. aureus*) phenotype?", "answers": [ { "text": "Expression of PBP2a (Penicillin-Binding Protein 2a)", "correct": true }, { "text": "Production of beta-lactamase", "correct": false }, { "text": "Alteration of porin channels", "correct": false }, { "text": "Efflux pumps", "correct": false } ] },
+    { "id": 103, "topic": "microbiological", "difficulty": "hard", "question": "Which antibiotic is ineffective against *Enterococcus faecium* due to intrinsic resistance?", "answers": [ { "text": "Cephalosporins", "correct": true }, { "text": "Ampicillin", "correct": false }, { "text": "Vancomycin", "correct": false }, { "text": "Linezolid", "correct": false } ] },
+    { "id": 104, "topic": "microbiological", "difficulty": "hard", "question": "What is the most common type of carbapenemase found in *Klebsiella pneumoniae* strains worldwide?", "answers": [ { "text": "KPC (Klebsiella pneumoniae carbapenemase)", "correct": true }, { "text": "NDM (New Delhi metallo-beta-lactamase)", "correct": false }, { "text": "VIM (Verona integron-encoded metallo-beta-lactamase)", "correct": false }, { "text": "OXA-48", "correct": false } ] },
+    { "id": 105, "topic": "microbiological", "difficulty": "hard", "question": "Which bacterium can survive the acidic environment of the stomach by producing the urease enzyme?", "answers": [ { "text": "Helicobacter pylori", "correct": true }, { "text": "Escherichia coli", "correct": false }, { "text": "Salmonella Typhi", "correct": false }, { "text": "Vibrio cholerae", "correct": false } ] },
+    { "id": 106, "topic": "microbiological", "difficulty": "hard", "question": "What is the major virulence factor of encapsulated *Haemophilus influenzae* type b (Hib)?", "answers": [ { "text": "Polyribosylribitol phosphate (PRP) capsule", "correct": true }, { "text": "Lipopolysaccharide (LPS)", "correct": false }, { "text": "IgA protease", "correct": false }, { "text": "Adhesin proteins", "correct": false } ] },
+    { "id": 107, "topic": "microbiological", "difficulty": "hard", "question": "Which antibiotic is inactivated by pulmonary surfactant, rendering it ineffective in pneumonia?", "answers": [ { "text": "Daptomycin", "correct": true }, { "text": "Linezolid", "correct": false }, { "text": "Vancomycin", "correct": false }, { "text": "Ceftaroline", "correct": false } ] },
+    { "id": 108, "topic": "microbiological", "difficulty": "hard", "question": "What is the primary mechanism of fluoroquinolone resistance in Gram-negative bacteria?", "answers": [ { "text": "Point mutations in DNA gyrase (gyrA) and topoisomerase IV (parC) genes", "correct": true }, { "text": "Enzymatic inactivation", "correct": false }, { "text": "Increased efflux", "correct": false }, { "text": "Decreased porin expression", "correct": false } ] },
+    { "id": 109, "topic": "microbiological", "difficulty": "hard", "question": "Cephalosporins are intrinsically ineffective against which of these pathogens?", "answers": [ { "text": "Listeria monocytogenes", "correct": true }, { "text": "Streptococcus pneumoniae", "correct": false }, { "text": "Neisseria meningitidis", "correct": false }, { "text": "Haemophilus influenzae", "correct": false } ] },
+    { "id": 110, "topic": "microbiological", "difficulty": "hard", "question": "What is the main role of Panton-Valentine leukocidin (PVL) in *Staphylococcus aureus* infections?", "answers": [ { "text": "Lysis of leukocytes and tissue necrosis", "correct": true }, { "text": "Biofilm formation", "correct": false }, { "text": "Beta-lactamase production", "correct": false }, { "text": "Acting as a superantigen", "correct": false } ] },
+    { "id": 111, "topic": "microbiological", "difficulty": "hard", "question": "What is the primary mechanism of macrolide resistance in *Streptococcus pneumoniae*?", "answers": [ { "text": "Ribosomal methylation mediated by the erm(B) gene", "correct": true }, { "text": "Efflux pump mediated by the mef(A) gene", "correct": false }, { "text": "Enzymatic inactivation", "correct": false }, { "text": "Target site mutation in 23S rRNA", "correct": false } ] }
+);
+// ----- NEWLY ADDED QUESTIONS END -----
+
+// ----- NEWLY ADDED QUESTIONS START -----
+window.test_en.push(
+    // Pharmacological - Easy (New)
+    {
+        "id": 52, "topic": "pharmacological", "difficulty": "easy", "question": "Which group does Azithromycin belong to?",
+        "answers": [ { "text": "Macrolide", "correct": true }, { "text": "Aminoglycoside", "correct": false }, { "text": "Quinolone", "correct": false }, { "text": "Glycopeptide", "correct": false } ]
+    },
+    {
+        "id": 53, "topic": "pharmacological", "difficulty": "easy", "question": "What is the mechanism of action of Vancomycin?",
+        "answers": [ { "text": "Cell wall synthesis inhibitor (D-Ala-D-Ala binding)", "correct": true }, { "text": "Protein synthesis inhibitor (30S ribosome)", "correct": false }, { "text": "DNA gyrase inhibitor", "correct": false }, { "text": "Cell membrane depolarization", "correct": false } ]
+    },
+    {
+        "id": 54, "topic": "pharmacological", "difficulty": "easy", "question": "Is Penicillin G bactericidal or bacteriostatic?",
+        "answers": [ { "text": "Bactericidal", "correct": true }, { "text": "Bacteriostatic", "correct": false } ]
+    },
+    {
+        "id": 55, "topic": "pharmacological", "difficulty": "easy", "question": "Which antibiotic is primarily used orally to treat *C. difficile* infection?",
+        "answers": [ { "text": "Vancomycin", "correct": true }, { "text": "Gentamicin", "correct": false }, { "text": "Ceftriaxone", "correct": false }, { "text": "Meropenem", "correct": false } ]
+    },
+    {
+        "id": 56, "topic": "pharmacological", "difficulty": "easy", "question": "Which antibiotic is known for its effectiveness against atypical pathogens like *Mycoplasma*?",
+        "answers": [ { "text": "Doxycycline", "correct": true }, { "text": "Penicillin G", "correct": false }, { "text": "Meropenem", "correct": false }, { "text": "Vancomycin", "correct": false } ]
+    },
+    {
+        "id": 57, "topic": "pharmacological", "difficulty": "easy", "question": "Which group does Linezolid belong to?",
+        "answers": [ { "text": "Oxazolidinone", "correct": true }, { "text": "Lipopeptide", "correct": false }, { "text": "Streptogramin", "correct": false }, { "text": "Carbapenem", "correct": false } ]
+    },
+    {
+        "id": 58, "topic": "pharmacological", "difficulty": "easy", "question": "Is Clindamycin bactericidal or bacteriostatic?",
+        "answers": [ { "text": "Bacteriostatic", "correct": true }, { "text": "Bactericidal", "correct": false } ]
+    },
+    {
+        "id": 59, "topic": "pharmacological", "difficulty": "easy", "question": "Which antibiotic is primarily used to treat anaerobic infections?",
+        "answers": [ { "text": "Metronidazole", "correct": true }, { "text": "Azithromycin", "correct": false }, { "text": "Ciprofloxacin", "correct": false }, { "text": "Gentamicin", "correct": false } ]
+    },
+    {
+        "id": 60, "topic": "pharmacological", "difficulty": "easy", "question": "Which antibiotic inhibits folate synthesis?",
+        "answers": [ { "text": "TMP-SMX", "correct": true }, { "text": "Daptomycin", "correct": false }, { "text": "Clindamycin", "correct": false }, { "text": "Cefepime", "correct": false } ]
+    },
+    {
+        "id": 61, "topic": "pharmacological", "difficulty": "easy", "question": "Which drug inhibits cell wall synthesis by inhibiting the MurA enzyme?",
+        "answers": [ { "text": "Fosfomycin", "correct": true }, { "text": "Penicillin G", "correct": false }, { "text": "Vancomycin", "correct": false }, { "text": "Bacitracin", "correct": false } ]
+    },
+    // Pharmacological - Hard (New)
+    {
+        "id": 62, "topic": "pharmacological", "difficulty": "hard", "question": "Which antibiotic can cause tendon rupture, especially in the elderly?",
+        "answers": [ { "text": "Levofloxacin", "correct": true }, { "text": "Linezolid", "correct": false }, { "text": "Doxycycline", "correct": false }, { "text": "Clindamycin", "correct": false } ]
+    },
+    {
+        "id": 63, "topic": "pharmacological", "difficulty": "hard", "question": "Which carbapenem lacks significant activity against *Pseudomonas aeruginosa*?",
+        "answers": [ { "text": "Ertapenem", "correct": true }, { "text": "Meropenem", "correct": false }, { "text": "Imipenem", "correct": false }, { "text": "Doripenem", "correct": false } ]
+    },
+    {
+        "id": 64, "topic": "pharmacological", "difficulty": "hard", "question": "Which antibiotic is a potent inducer of CYP450 enzymes, leading to many drug interactions?",
+        "answers": [ { "text": "Rifampin", "correct": true }, { "text": "Azithromycin", "correct": false }, { "text": "Metronidazole", "correct": false }, { "text": "Linezolid", "correct": false } ]
+    },
+    {
+        "id": 65, "topic": "pharmacological", "difficulty": "hard", "question": "Which drug can cause dose-dependent bone marrow suppression and aplastic anemia?",
+        "answers": [ { "text": "Chloramphenicol", "correct": true }, { "text": "TMP-SMX", "correct": false }, { "text": "Linezolid", "correct": false }, { "text": "Doxycycline", "correct": false } ]
+    },
+    {
+        "id": 66, "topic": "pharmacological", "difficulty": "hard", "question": "What is the mechanism of action of Daptomycin?",
+        "answers": [ { "text": "Cell membrane depolarization", "correct": true }, { "text": "Cell wall synthesis inhibitor (D-Ala-D-Ala binding)", "correct": false }, { "text": "Cell wall synthesis inhibitor (PBP binding)", "correct": false }, { "text": "Protein synthesis inhibitor (50S ribosome)", "correct": false } ]
+    },
+    {
+        "id": 67, "topic": "pharmacological", "difficulty": "hard", "question": "Which fluoroquinolone has the most pronounced anaerobic activity but lacks antipseudomonal activity?",
+        "answers": [ { "text": "Moxifloxacin", "correct": true }, { "text": "Ciprofloxacin", "correct": false }, { "text": "Levofloxacin", "correct": false }, { "text": "Ofloxacin", "correct": false } ]
+    },
+    {
+        "id": 68, "topic": "pharmacological", "difficulty": "hard", "question": "Which drug can cause Gray baby syndrome in newborns?",
+        "answers": [ { "text": "Chloramphenicol", "correct": true }, { "text": "Gentamicin", "correct": false }, { "text": "Tetracycline", "correct": false }, { "text": "Erythromycin", "correct": false } ]
+    },
+    {
+        "id": 69, "topic": "pharmacological", "difficulty": "hard", "question": "Which antibiotic should be used in combination to avoid rapid resistance development, especially in *Staphylococcus* infections?",
+        "answers": [ { "text": "Rifampin", "correct": true }, { "text": "Vancomycin", "correct": false }, { "text": "Amoxicillin", "correct": false }, { "text": "Doxycycline", "correct": false } ]
+    },
+    {
+        "id": 70, "topic": "pharmacological", "difficulty": "hard", "question": "Which antibiotic can cause CPK elevation and myopathy?",
+        "answers": [ { "text": "Daptomycin", "correct": true }, { "text": "Linezolid", "correct": false }, { "text": "Ceftaroline", "correct": false }, { "text": "Tigecycline", "correct": false } ]
+    },
+    {
+        "id": 71, "topic": "pharmacological", "difficulty": "hard", "question": "Which drug inhibits protein synthesis by inhibiting the isoleucyl-tRNA synthetase enzyme?",
+        "answers": [ { "text": "Mupirocin", "correct": true }, { "text": "Linezolid", "correct": false }, { "text": "Clindamycin", "correct": false }, { "text": "Erythromycin", "correct": false } ]
+    }
+);
+// ----- NEWLY ADDED QUESTIONS END -----
