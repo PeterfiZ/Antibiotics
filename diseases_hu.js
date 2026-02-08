@@ -2059,5 +2059,38 @@ window.diseases_hu = [
             "en": "Urgent surgical drainage required, neurological complications common",
             "de": "Dringender chirurgischer Eingriff erforderlich, neurologische Komplikationen häufig"
         }
+    },
+    {
+        "name": {
+            "hu": "Q láz",            
+            "en": "Q-laz",  
+            "de": "Q-Fieber"
+        },
+        "category": "Zoonotic",
+        "commonPathogens": [
+            "Coxiella burnetii"
+        ],
+        "empiricalTherapy": {
+            "firstLine": {
+                "hu": "Doxycyclin 100mg PO 12h, 14 nap, infectiv endocarditis esetén 18-24 hónap Doxycyclin + hydroxychloroquin",
+                "en": "Doxycycline 100mg PO 12h, 14 days, 18-24 months in infective endocarditis Doxycycline + hydroxychloroquine",
+                "de": "Doxycyclin 100mg p.o. 12h, 14 Tage, 18-24 Monate bei infektiöser Endokarditis Doxycyclin + Hydroxychloroquin"
+            },
+            "alternative": {    
+                "hu": "Trimethoprim-szulfametoxazol 160/800mg PO 12h, 14 nap",
+                "en": "Trimethoprim-sulfamethoxazole 160/800mg PO 12h, 14 days",
+                "de": "Trimethoprim-Sulfamethoxazol 160/800mg p.o. 12h, 14 Tage"
+            },
+            "duration": {
+                "hu": "14 nap, infectiv endocarditis esetén 18-24 hónap",
+                "en": "14 days, 18-24 months in infective endocarditis",
+                "de": "14 Tage, 18-24 Monate bei infektiöser Endokarditis"
+            }
+        },
+        "notes": {
+            "hu": "Főként párosujjú patásokkal való érintkezés, kullancscsípés útján terjed, akut és krónikus formák léteznek, egy kórokozó is megbetegedést okozhat",
+            "en": "Mainly transmitted through contact with livestock, can be spread by tick bites, acute and chronic forms exist, a single pathogen can cause disease",
+            "de": "Hauptsächlich durch Kontakt mit Nutztieren übertragen, kann durch Zeckenstiche verbreitet werden, akute und chronische Formen existieren, ein einzelner Erreger kann Krankheit verursachen"
+        }
     }
 ];
