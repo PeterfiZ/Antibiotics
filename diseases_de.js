@@ -58,7 +58,7 @@ window.diseases_de = [
         "notes": {
             "hu": "Dexamethasone 0.15mg/kg IV 6h 2-4 napig (S. pneumoniae esetén), ampicillin >50 év vagy immunszuppresszió esetén",
             "en": "Dexamethasone 0.15mg/kg IV 6h for 2-4 days (for S. pneumoniae), ampicillin for >50 years or immunosuppression",
-            "de": "Dexamethason 0,15mg/kg IV 6h für 2-4 Tage (bei S. pneumoniae), Ampicillin bei >50 Jahren oder Immunsuppression"
+            "de": "Dexamethason 0,15mg/kg i.v. 6h für 2-4 Tage (bei S. pneumoniae), Ampicillin bei >50 Jahren oder Immunsuppression"
         }
     },
     {
@@ -82,7 +82,7 @@ window.diseases_de = [
             "alternative": {
                 "hu": "Ampicillin + Gentamicin 2.5mg/kg IV 8h",
                 "en": "Ampicillin + Gentamicin 2.5mg/kg IV 8h",
-                "de": "Ampicillin + Gentamicin 2.5mg/kg i.v. 8h"
+                "de": "Ampicillin + Gentamicin 2,5mg/kg i.v. 8h"
             },
             "duration": {
                 "hu": "14-21 nap",
@@ -623,7 +623,7 @@ window.diseases_de = [
         "notes": {
             "hu": "TEE kötelező, sebészeti konzílium indikációk: szívelégtelenség, abszcesszus, nagy vegetáció (>10mm), ismételt embolizáció",
             "en": "TEE mandatory, surgical consultation indications: heart failure, abscess, large vegetation (>10mm), recurrent embolization",
-            "de": "TEE obligatorisch, Indikationen für chirurgische Konsultation: Herzinsuffizienz, Abszess, große Vegetation (>10mm), wiederkehrende Embolisierung"
+            "de": "TEE obligatorisch, Indikationen für chirurgische Konsultation: Herzinsuffizienz, Abszess, große Vegetation (>10mm), rezidivierende Embolien"
         }
     },
     {
@@ -755,7 +755,7 @@ window.diseases_de = [
         "notes": {
             "hu": "Sebészeti kezelés gyakran szükséges, rifampin csak biofilm-képző Gram-pozitív coccusok esetén",
             "en": "Surgical treatment often required, rifampin only for biofilm-forming Gam-positive cocci",
-            "de": "Chirurgische Behandlung oft erforderlich, Rifampicin nur bei biofilmbildenden Grampositiven Kokken"
+            "de": "Chirurgische Behandlung oft erforderlich, Rifampicin nur bei biofilmbildenden Gram-positiven Kokken"
         }
     },
     {
@@ -813,7 +813,7 @@ window.diseases_de = [
         "notes": {
             "hu": "Hasonló natív billentyű endocarditishez, de hosszabb kezelési idő és rifampin mérlegelése",
             "en": "Similar to native valve endocarditis, but longer treatment duration and consideration of rifampin",
-            "de": "Ähnlich wie bei Endokarditis der nativen Klappe, aber längere Behandlungsdauer und Rifampicin-Abwägung"
+            "de": "Ähnlich wie bei Endokarditis der nativen Klappe, aber längere Behandlungsdauer und Erwägung von Rifampicin"
         }
     },
     {
@@ -1117,7 +1117,7 @@ window.diseases_de = [
             "firstLine": {
                 "hu": "Clindamycin 600mg IV 8h + Penicillin G 4 MU IV 4h",
                 "en": "Clindamycin 600mg IV 8h + Penicillin G 4 MU IV 4h",
-                "de": "Clindamycin 600mg i.v. 8h + Penicillin G 4 MU i.v. 4h"
+                "de": "Clindamycin 600mg i.v. 8h + Penicillin G 4 ME i.v. 4h"
             },
             "alternative": {
                 "hu": "Vancomycin + Piperacillin-tazobaktám + Clindamycin",
@@ -2061,3 +2061,4 @@ window.diseases_de = [
         }
     }
 ];
+
