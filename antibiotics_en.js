@@ -27,6 +27,11 @@ window.antibiotics_en = [
             "en": "short (0.5-1 hours)",
             "de": "kurz (0,5-1 Stunden)"
         },
+        "elimination": {
+            "hu": "Renális",
+            "en": "Renal",
+            "de": "Renal"
+        },
         "mechanism": {
             "hu": "Sejtfal szintézis gátló (PBP kötés)",
             "en": "Cell wall synthesis inhibitor (PBP binding)",
@@ -87,6 +92,11 @@ window.antibiotics_en = [
             "en": "short (0.5-1 hours)",
             "de": "kurz (0,5-1 Stunden)"
         },
+        "elimination": {
+            "hu": "Renális",
+            "en": "Renal",
+            "de": "Renal"
+        },
         "mechanism": {
             "hu": "Sejtfal szintézis gátló (PBP kötés)",
             "en": "Cell wall synthesis inhibitor (PBP binding)",
@@ -145,6 +155,11 @@ window.antibiotics_en = [
             "hu": "rövid (0.5-1 óra)",
             "en": "short (0.5-1 hours)",
             "de": "kurz (0,5-1 Stunden)"
+        },
+        "elimination": {
+            "hu": "Hepatikus/Renális",
+            "en": "Hepatic/Renal",
+            "de": "Hepatisch/Renal"
         },
         "mechanism": {
             "hu": "Sejtfal szintézis gátló (PBP kötés)",
@@ -206,6 +221,11 @@ window.antibiotics_en = [
             "en": "short (0.5-1 hours)",
             "de": "kurz (0,5-1 Stunden)"
         },
+        "elimination": {
+            "hu": "Renális",
+            "en": "Renal",
+            "de": "Renal"
+        },
         "mechanism": {
             "hu": "Sejtfal szintézis gátló (PBP kötés)",
             "en": "Cell wall synthesis inhibitor (PBP binding)",
@@ -265,6 +285,11 @@ window.antibiotics_en = [
             "hu": "rövid (0.5-1 óra)",
             "en": "short (0.5-1 hours)",
             "de": "kurz (0,5-1 Stunden)"
+        },
+        "elimination": {
+            "hu": "Renális",
+            "en": "Renal",
+            "de": "Renal"
         },
         "mechanism": {
             "hu": "Sejtfal szintézis gátló + béta-laktamáz gátló",

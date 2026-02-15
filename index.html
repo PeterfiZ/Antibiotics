@@ -811,6 +811,7 @@
 <script src="antibiotics_hu.js"></script>
 <script src="antibiotics_en.js"></script>
 <script src="antibiotics_de.js"></script>
+<script src="antibiotics_elimination.js"></script>
 <script src="diseases_hu.js"></script>
 <script src="diseases_en.js"></script>
 <script src="diseases_de.js"></script>
@@ -1001,6 +1002,7 @@ console.log("pediatric_doses_de:", window.pediatric_doses_de);
                 'effect': 'Hatás',
                 'halfLife': 'Felezési idő',
                 'pae': 'PAE',
+                'elimination': 'Kiürülés',
                 'mechanism': 'Hatásmechanizmus',
                 'dosage': 'Adagolás',
                 'standard': 'Standard',
@@ -1178,6 +1180,7 @@ console.log("pediatric_doses_de:", window.pediatric_doses_de);
                 'effect': 'Effect',
                 'halfLife': 'Half-life',
                 'pae': 'PAE',
+                'elimination': 'Elimination',
                 'mechanism': 'Mechanism of Action',
                 'dosage': 'Dosage',
                 'standard': 'Standard',
@@ -1355,6 +1358,7 @@ console.log("pediatric_doses_de:", window.pediatric_doses_de);
                 'effect': 'Wirkung',
                 'halfLife': 'Halbwertszeit',
                 'pae': 'PAE',
+                'elimination': 'Elimination',
                 'mechanism': 'Wirkmechanismus',
                 'dosage': 'Dosierung',
                 'standard': 'Standard',
@@ -1753,6 +1757,11 @@ console.log("pediatric_doses_de:", window.pediatric_doses_de);
                                             <span class="block text-xs text-gray-500">${translations[lang]['pae']}</span>
                                             <span class="font-medium text-gray-800">${antibiotic.pae[lang]}</span>
                                         </div>
+                                        ${antibiotic.elimination ? `
+                                        <div class="col-span-2 border-t border-gray-50 pt-2 mt-1">
+                                            <span class="block text-xs text-gray-500">${translations[lang]['elimination']}</span>
+                                            <span class="font-medium text-gray-800">${antibiotic.elimination[lang]}</span>
+                                        </div>` : ''}
                                     </div>
                                 </div>
 
@@ -2551,6 +2560,7 @@ console.log("pediatric_doses_de:", window.pediatric_doses_de);
                             <tr><td>${translations[lang]['effect']}</td><td>${ab.effect[lang]}</td></tr>
                             <tr><td>${translations[lang]['halfLife']}</td><td>${ab.halfLife[lang]}</td></tr>
                             <tr><td>${translations[lang]['pae']}</td><td>${ab.pae[lang]}</td></tr>
+                            ${ab.elimination ? `<tr><td>${translations[lang]['elimination']}</td><td>${ab.elimination[lang]}</td></tr>` : ''}
                             
                             <tr><td class="category" colspan="2">${translations[lang]['mechanism']}</td></tr>
                             <tr><td colspan="2">${ab.mechanism[lang]}</td></tr>
