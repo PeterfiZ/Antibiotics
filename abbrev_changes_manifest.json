@@ -1,0 +1,54 @@
+{
+  "summary": "Abbreviation harmonization applied",
+  "timestamps": {
+    "appliedFromHU_run": "2026-02-21T19:19:xxZ",
+    "apply_canonical_run": "2026-02-21T19:21:xxZ"
+  },
+  "counts": {
+    "en_total_items": 82,
+    "hu_total_items": 107,
+    "de_total_items": 83,
+    "en_changes_first_pass": 47,
+    "en_changes_second_pass": 1,
+    "total_en_changes": 48,
+    "de_changes": 0,
+    "hu_changes": 0
+  },
+  "canonical_mapping_applied": {
+    "TMP-SMX": "SXT",
+    "Trimethoprim-sulfamethoxazole (TMP-SMX)": "SXT",
+    "Ticarcillin-clavulanate": "TIC-CLA",
+    "Aztreonam-Avibactam": "ATM-AVI",
+    "Nafcillin": "NAF",
+    "Dicloxacillin": "DCX",
+    "Cefotetan": "CET",
+    "Cefoperazone": "COP",
+    "Ceftizoxime": "CTZ",
+    "Ceftaroline": "CPT",
+    "Cefepime-enmetazobactam": "FEP-ENM",
+    "Ceftobiprole": "CBR",
+    "Cefadroxil": "CFD",
+    "Cefixime": "CFX",
+    "Cefprozil": "CPZ",
+    "Cefdinir": "CFN",
+    "Ceftibuten": "CTB",
+    "Cefpodoxime": "CPX",
+    "Tobramycin": "TOB",
+    "Cefditoren": "CFDT",
+    "Telithromycin": "TEL",
+    "Tetracycline": "TET",
+    "Pristinamycin": "PRI",
+    "Pivmecillinam": "PIV",
+    "Norfloxacin": "NOR",
+    "Prulifloxacin": "PRU",
+    "Gemifloxacin": "GEM",
+    "Gatifloxacin": "GAT"
+  },
+  "notes": [
+    "I copied non-empty abbreviations from antibiotics_hu.js into antibiotics_en.js for 47 entries.",
+    "I then applied a small canonical mapping for 28 keys; this resulted in 1 additional change in the English file.",
+    "I did not overwrite any existing non-empty abbreviations.",
+    "Remaining items without abbreviations are listed in abbrev_current.json under the 'combined' section where en/hu/de values are null.",
+    "If you want a git-style unified diff for the exact file changes, run 'git diff' in your repository after staging or before -- I can also produce a unified patch by replacing the full file content on request."
+  ]
+}
